@@ -14,5 +14,3 @@ end
 target 'CucumberishFeatureDefinition' do
     pod 'Cucumberish'
 end
-
-
