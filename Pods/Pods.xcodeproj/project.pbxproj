@@ -1,0 +1,2221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002C425F9777A09E5F273BC20C7020C1 /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6569D7ED132DB01E6EE093908ED33601 /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		019C41012E78C5CF4DF11ED76FA27237 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B51976392A6576F9EB89F6FE1026F3 /* GHStep.m */; };
+		0280B5F0A745E1EBA8132FA860800A13 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0787B05495DA087DB2829CDB518E866B /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0291F58051688F1B7443ECB40B8B9F64 /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB380E5CDD2D7D9596194D53EB3AE53 /* CCIBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02DB38FCB428278FA9B22C343CCAF01E /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F311618787CE632000CA5FB6D46287A /* KIFUITestActor.m */; };
+		0361ED4FD64145C3E257F4B612138ECD /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F14C625C5D6E2C6FBA9CA9D50CE73 /* CCIFeaturesManager.m */; };
+		0381D40402BB002FBBE55BC339F849C0 /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CCB84A8194A602BF3454AE8C9FB459 /* GHTokenScanner.m */; };
+		042A599E6335AC6EEC22F5F46FD65BBD /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F14C625C5D6E2C6FBA9CA9D50CE73 /* CCIFeaturesManager.m */; };
+		07019F0E2D76B81838AF759664A181CE /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = EE223B635E5DEC210F6CB08E07028F20 /* CCIExample.m */; };
+		07C4DCD89F2664CB79206EB1C238C846 /* GHDocString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4C1C27CEF0828234160A4D54953D32 /* GHDocString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08A7D036D090858901997415E221E8E4 /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC10C18DBE9AED6265809C3738102422 /* CCIStepsManager.m */; };
+		08AE0690892DE6E7C18F8AD99C0EA2C8 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2963144468883EBA9D276A484D529D /* KIFTestCase.m */; };
+		08B3D71860ECF6896AB2CEB5615A01CA /* CAAnimation+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 503BBBC01728C9846D01FEAEE65A2529 /* CAAnimation+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0941BB6C18FD2FC203BC4ECE6B9F7E44 /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5A05306569433190E580C4243F5D5 /* GHGherkinLanguageConstants.m */; };
+		09B6F500F0E3E9F429511C53022FCFF5 /* GHHasDescriptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D42678222A93C13FF268B67882D4DEA0 /* GHHasDescriptionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B7DA3A9CFE5E22BCFA97BC8643B84BC /* GHComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2C7DD371978A74E85AFE6087C87D95 /* GHComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C5C1AA24104362685F968B8C161A357 /* GHTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E8B85F9FD66DFB1F88BFAC463D1474 /* GHTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D73659A39B8126DE1521EF5CB67EDF0 /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B1271A4183344F17DEB47787D7C933DC /* CCIBackground.m */; };
+		0DD344B7E4B947EF61F16E3D69913528 /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F39EB1F39F67E424D859E1CD6FA1B5 /* GHGherkinDialect.m */; };
+		0DDE272C57D1CB7A45B048684DB36FE9 /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D2D265A9850F482EA7C0FD07860E3 /* CGGeometry-KIFAdditions.m */; };
+		0EC13C613F13421A0EA56D1E20A5B40D /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA7FD0E532F261C3EE04A86340107B2 /* GHBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F7B4FE680BC726EE4ADB8A8408F8637 /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 496566833F2D36312CB752BC8ECD6BEB /* NSPredicate+KIFAdditions.m */; };
+		108015D8DC55FC4167FF7C220169660D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		10C7C4A9AF42170BE52E1E5F738FC051 /* KIFUIViewTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99169525A507342A73C2C4EFB2215D95 /* KIFUIViewTestActor.m */; };
+		110F9812638C91E8ECE0C111BD73AAE7 /* GHGherkinLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5BD92DCDC4E2A26473142DC19EA03D /* GHGherkinLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		112F41821C8B4958DD545D084BC406F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535F39E91C1C03B99B357651852C7A23 /* QuartzCore.framework */; };
+		1133FAC9CA3787E5BF9444F6F219CB02 /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5A05306569433190E580C4243F5D5 /* GHGherkinLanguageConstants.m */; };
+		12208662378CD4FE696A9DB06ACCC92D /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C930123C439C3DC3AB3EED6CDF7D03 /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15AB7FB90404C9C750B40031F7A525E4 /* GHComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2C7DD371978A74E85AFE6087C87D95 /* GHComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		165F36AB2D850C97A0CBFC0819D5340C /* GHGherkinLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5BD92DCDC4E2A26473142DC19EA03D /* GHGherkinLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16A1134FACBFA414BC1580152E5C3952 /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB92B86BE57935DDD1CA02DC60748E /* CCIHock.m */; };
+		16C0095EBB71D2D8FDD969B1A90462E6 /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E58F5F454A89A4766E1BA2A7EA306 /* GHLocation.m */; };
+		17025B3A0B38D8A3AA6C1119552A6BB8 /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 068CF824D35D761DF54F79B98E5A2936 /* CCIAroundHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		193A3AE6F50C3BDE44B10D9003C17BEE /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = F579F4ECD50EA577753D30A6D1A5C8FF /* GHExamples.m */; };
+		197B27F82F0E781D3E768C594803C725 /* GHToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F5278413D3D9DA2ED414DA8E2A0B5C /* GHToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A58B1E26C32911B4CCE4E225EFF86BD /* GHTokenScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D631DF22F40C61D722F367E09D000D /* GHTokenScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B2150063A79AB70D4740FE5A7D07939 /* Pods-CucumberishExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF64A51096A64B9230E8DAF3DAD74AB /* Pods-CucumberishExampleUITests-dummy.m */; };
+		1BBDE47C8EEA7BF9958D6BD68D404567 /* GHScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = D1310EC84907E65784AF638993626A4A /* GHScenarioDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D08D9CC39F92D3F5A8F9EB3FAAC201A /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F2B4A691A81F4DCB7D40919B70B2AF /* UIScreen+KIFAdditions.m */; };
+		1F0074D0AE98F5CA65916BF156638318 /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B15559A676CACC01B3147054E88903 /* NSString+Formatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		202F2CD2BA1B6F8605A02DD6FD8D4F34 /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A475DC2C0285ECA5F5200E93830DCF8 /* NSError-KIFAdditions.m */; };
+		2038CA4E7F53EEA73180FCABF4EC3FEF /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = D936347BE727E01C4DFFF149516AE9C7 /* UIView-Debugging.m */; };
+		20BFC3797DBB64ADD3A61F6278C00EB9 /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98B04BD8DBA352FCF6886E52090B2E /* CALayer-KIFAdditions.m */; };
+		211CA221E4DDC899FFBFA4058AC376CC /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B38C974D810CB27657B935A007358450 /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219A9150FF8F990849812FDB3EECD338 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE313C606727CF7F2712969CF6A80DF /* XCTest.framework */; };
+		221246F3FDDC41304A4A2F7E2123E075 /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA012551E2B527788E4E224F4E2C0 /* GHFeature.m */; };
+		23001FC6A0F7B485CD6312CC65A96D76 /* GHGherkinLanguageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E9231732B73AADCAFEDA416366A943 /* GHGherkinLanguageConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		236B489458E4B60F4DC4FEE2004FCDD8 /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E8FF846386BF78DE5EC3CBE2D73805 /* GHTableCell.m */; };
+		23936549A6F38E2C5C2994CDF53E64D8 /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 068CF824D35D761DF54F79B98E5A2936 /* CCIAroundHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		259455BFB78D5A07CB1D9DE32D2DDCE2 /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA7792FE07C55F51A4008E5ADDE75C /* CCILocation.m */; };
+		25DDD358765CA352E261A7E09AA23500 /* GHHasTagsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F2697EA6E7FAC2722067B5DE258C1987 /* GHHasTagsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25E587FC8A9522E329B12DE1A5F7DA3D /* KIFAccessibilityEnabler.h in Headers */ = {isa = PBXBuildFile; fileRef = A80C0D0295ABA6A29A22F0A48D461725 /* KIFAccessibilityEnabler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2637742861D82C1E733D169556B4F3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		27524C396DC322E7F87E72FF0C6B1D3C /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = F430B6322EB5A7601579E1FEFB4F56E3 /* NSArray+Hashes.m */; };
+		278043617C0ECC84ACFC675470899F1D /* GHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DF2E9149A87A2F54F9730917413191 /* GHNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27C74E8A03164A8FF7D3E0FDC0533B9E /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C8A99F673452831C1BA2E48CAC364 /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27CF8B76827893F8557506E4CAD961C8 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D99B5569795B56F2ECE7255D64D6C /* GHStepArgument.m */; };
+		27EA3437F7D550D1FB1E70BD3F9C9563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		28ABCCBCB8A8AB79BDD32A83A8781614 /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B686C04CD34CE15B3C88BB383E2BE6A9 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28FB5EA3E19FE83EF6EC8529F985F8FA /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155523190151495BA172497DFB0F577 /* UIView-KIFAdditions.m */; };
+		2A06A1F6363BAC6ABA465BFD5D7ED865 /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = D38810DD57BF9701D281CC55EEB4D649 /* CCIArgument.m */; };
+		2AC83CC807B460BAFBA83DA6C3F9B1EE /* GHParserException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9971887A0DBA639A4FD812AAB32E381B /* GHParserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C91641D96E36D466DBE24C6A3B439D7 /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 420D4BEF855D814D541A8E879800CA20 /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD181852FD4E1E4B2CE95166E993617 /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2755282B96BB8D727D757570BA85B87 /* GHScenarioDefinition.m */; };
+		2D6E0B5604EAB29EE072D75B62837596 /* GHHasStepsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EACA1EE7FC987A60E34AF2F86778FF /* GHHasStepsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E4A3F241DC6C3452C3B5D5613321596 /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4325C79B142CBECFEB864A99BE74CFB1 /* GHParserException.m */; };
+		2F08BBD5293433E906A611D93BC59148 /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0515AE127502DDA13E0132BADDA85CFE /* XCTestCase-KIFAdditions.m */; };
+		2FBB314B217420C7FA0FD570249D19AC /* GHStepArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DE9D12CCE3919456F126B7EBA65457 /* GHStepArgument.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3062F5275278EB3F47AAA7BEFD0161CB /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = 526649E6199C1CA0E0049C3273C144F8 /* NSArray+Hashes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3129B64BB2E86620799E2CAD36B5EC75 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8D22846DA7391E63ED34CBDDF06DBE /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337CD685240BA1493995A9C55942318E /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6403160DA39B0748FBBACF5215ADDC /* CCIHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		339312BCC275C10B8722D3D34774BDB1 /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EBD95616DC9D62055C712194B90ED /* KIFTypist.m */; };
+		34A2FCAACF8F47CC63A03A9EBC0487E2 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A238AF9FF6781813287B1071BDBB3CF /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AC530DE34B346C46AB95F1321EEA98 /* GHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 953741B49F981B5180506A421DCE52AD /* GHParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34AFD470CA170BC7E99C34B62F18CABF /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B756E8DF7A8DBD3C51AA784AEEF032F /* KIFTestStepValidation.m */; };
+		36C5229675214DCD9271C8C2BA19B7F2 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 778FE39FFB26060658E7250BA727F3E8 /* KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36FE9C3E49C30320C0F1D398138DF1B6 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 378754C8831F8DD8BD4B17AA301C3BCB /* UIWindow-KIFAdditions.m */; };
+		3A9F233272635518CDCED413675AA426 /* Pods-CucumberishExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D14828E31A45D1243E49A57A4626A /* Pods-CucumberishExampleTests-dummy.m */; };
+		3AA4B8D4A88DDD1AACB32C1D5DE14984 /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = B9189081D30E4950C0E6E94746426353 /* Cucumberish.m */; };
+		3BB7EF86A1B9B5569CC31D51248ED069 /* KIFUIViewTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8F28800053A8C1EE4915F6E3B38C98 /* KIFUIViewTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D680AFC5E6CFC6249D11B5690CD040F /* GHTokenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE42E0372056B2EFF93F744FEE8A965 /* GHTokenMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D7AD5B7E216E3C19BD009A04C73A1AA /* GHScenarioOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F4633AFD993B8009E388D27E9B6983 /* GHScenarioOutline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D7AFCA832D06FEC4FBB95994DB2DB55 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0884CAED4F091154A8FC1DD2639B6A /* IOHIDEvent+KIF.m */; };
+		41998D50F9BEEDA61C1E9FC1DCFF601E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741C77081C9A3FE77EFF055084C86893 /* IOKit.framework */; };
+		41A35BDC268EE2D4F6680E43E2856EF3 /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB92B86BE57935DDD1CA02DC60748E /* CCIHock.m */; };
+		41A58128F6AD313BE71D133DD4FF501C /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A026559143089DA310D22709A5DF552 /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41C13733678196FFEDFD1084498CD1C1 /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F9BE94EC93974D2368BEFD6C211CC /* GHScenario.m */; };
+		41E9B77FD9A303BD031F5090969A05D1 /* GHGherkinLanguageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D0D5B22958547FAF578429A0428812 /* GHGherkinLanguageSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4375AAEBD25C5516FD3BCB797DE213F5 /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A885985BB8AAEA1CB15FCBCF11AFB9 /* GHAstNode.m */; };
+		44FC8D76278C30EC1D40B87A918B826C /* GHScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = D1310EC84907E65784AF638993626A4A /* GHScenarioDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		457EF586C5DF4C51E9D55E63EAF745F8 /* GHScenarioDefinition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A41FE612A5C700D8A55599CBD3C0292C /* GHScenarioDefinition_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45AB8F79F1BBAA7D9CAFECE10664E01F /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF184CFFF1B5643319337D14FB574D1 /* UITableView-KIFAdditions.m */; };
+		467AB80C19A94193162FEEE35700D438 /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A7C4F9697B12C440BCD78B14B562F2 /* NSBundle-KIFAdditions.m */; };
+		477B93A1AA699675F01417E820AC9AB3 /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F1DB8AFBE35FCECECD00CE6D2B0B75 /* GHBackground.m */; };
+		4843120F03B137C5497044D59E38F374 /* GHExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC650FD65456DBD2072D6C3EFFE7D01 /* GHExamples.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4891D4243C88B6911A3FCF680A4EC4A1 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B693510E21765EC5F81AD16B804458A3 /* GHComment.m */; };
+		48AED136E995CDEC188D4B547CADA840 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B49395900E0F4E427D749FBEC003D1 /* GHAstBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D5EE7C688432493C14CAA18BFFC6B61 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6E3DBEDB71A4EBF7036439C446228 /* CCIFeature.m */; };
+		4EAFED0E706B47E193D9146AAC8B4956 /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BBFF3D65C0035D2D63859A434ACA7 /* CCIStep.m */; };
+		4F5AFB6AD9F9023CF95F0B5621934BBF /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DB1C9D58A2036FE0956DBEA4B60BE2 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F757311A8BAC7A59904B4B19FE86297 /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7D58DEE05346C9DE302FFEDF76F48 /* NSString+KIFAdditions.m */; };
+		4FBB3C3391E7D558E5CDFFE4139BBC40 /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3CAF58E22767D2288F29A7408EDAA5 /* CCIFeaturesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50B6F6239B55E4FADF0DE97DEE4FFD2D /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4325C79B142CBECFEB864A99BE74CFB1 /* GHParserException.m */; };
+		515F50BAF39A1C45431077BC7C02A8E7 /* GHGherkinLineSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = D6652758C045145C411ED792D5B2ECA0 /* GHGherkinLineSpan.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		516B1AC9E9F604BA015B9E18C6916D32 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F30A67AEE4CC6B67FB1E1550102E294 /* NSString+Trim.m */; };
+		573BDDCF67B70FD2DB85F2990F25DEB7 /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F1DB8AFBE35FCECECD00CE6D2B0B75 /* GHBackground.m */; };
+		59C3DFAB531C46A3DAFBDE7077BDB7A8 /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = DD85DF04CC381177A7E529FB7E4F87E9 /* GHScenarioOutline.m */; };
+		5A0553A6853A6AAF4434D5C5DED603D3 /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B035E3C40F2A07ECBAB7A04F136C755 /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A20E34514F5B33FFF691F1998FD2974 /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B959D1BCE1557A7F6825FD6DB6F0A0 /* CCIFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CC6C89DF57F1E9809BBA25701FB8015 /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = 526649E6199C1CA0E0049C3273C144F8 /* NSArray+Hashes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D3281B229C0A96BC41A5464858761AD /* KIFSystemTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3B455DB806E81051690D22EE6C8398 /* KIFSystemTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EEE8A331FFEB05C9A840EF39E19989C /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F9BE94EC93974D2368BEFD6C211CC /* GHScenario.m */; };
+		6007FCBB329740CA38E9AA80BE2C128B /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = B9189081D30E4950C0E6E94746426353 /* Cucumberish.m */; };
+		60286852DDF56B1D3531CF93E1ED2F43 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F30A67AEE4CC6B67FB1E1550102E294 /* NSString+Trim.m */; };
+		623B29786C9E56D6C08183D6F90032E5 /* GHGherkinDialectProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F600BB2DE85F986F336AFBEF28D18D /* GHGherkinDialectProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6244A8EC6E10940E9C9829B9543CAB33 /* GHScenarioOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F4633AFD993B8009E388D27E9B6983 /* GHScenarioOutline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62A19EA454637DEECAFE080F92789F26 /* GHTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = D472EC13070EC0F20F6D0658CDF52379 /* GHTableRow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62ED0CC1F1B042916782D4634C2F2EEB /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C8A99F673452831C1BA2E48CAC364 /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644A1ACCC2AD67DA1BF730977EA513E8 /* KIFUIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A27B69AB90F9323105C57428A88984 /* KIFUIObject.m */; };
+		6479418869146D705CD81E649B5215BF /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7655A2172875B03D4DDC42B653953 /* CCIAroundHock.m */; };
+		6646A99B767527680FA939F4F1581C5F /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = F25C2E58CB6436DED9FF25524686A2AC /* GHTag.m */; };
+		69045CAFD98AE7FDE107D776E64256FE /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = FE77817AEC1357EC18574D4E401CC1F9 /* CCIScenarioDefinition.m */; };
+		69084B21793CE93ABE0D5F20BC7107B2 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DBA44EF670390BBB07490D0D0E67FA /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69A0CB924D8B0DA2CFDAB3543B116067 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD48656CA1CDE44E376BF43490AA9A8 /* NSObject+Dictionary.m */; };
+		69B6F0E88866A9184165B2A9C71AE370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		6AAB9D0FE6BB75F5A745A82F20188D74 /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3CAF58E22767D2288F29A7408EDAA5 /* CCIFeaturesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B1BE069736AEFA4322E1C3EC4C9C1B0 /* GHGherkinLineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D99791C617802466AEBE95F5450A898 /* GHGherkinLineProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BB51B098BE815815EC6CD8234B9D40D /* GHHasRowsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DA991DE9E33EF482779B554516073890 /* GHHasRowsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BD655CCB168D407A3BB57DD352F58C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE313C606727CF7F2712969CF6A80DF /* XCTest.framework */; };
+		6BDF71F547C941711C0A7A4816F9E493 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC5016BA83F16B0C24B62FD59C1C76C /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD922E1660F8AAAF19B0915C5850215 /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB380E5CDD2D7D9596194D53EB3AE53 /* CCIBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D593E9465B0A950A4B988CCCC3F63D9 /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C251F243A17C147E6340205957425F30 /* GHGherkinLineSpan.m */; };
+		6E517888DD889ABD638A4C0CF3ED5012 /* GHParser+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FE6172EA4F36C6D10EF65EEA3433C1 /* GHParser+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F4EBFFCF5173CC48887F5881694246C /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A885985BB8AAEA1CB15FCBCF11AFB9 /* GHAstNode.m */; };
+		722B42EB6ACEE05F00A093DED29D27F2 /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 652CDA4328EF7B071DDC9937461144C5 /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D374618A834A4C66A44A16CA041F06 /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EEC6C2C776BD194BF7620C86888549 /* CCIStepDefinition.m */; };
+		73D9AEE1CA64A28327F9F0142CE8616E /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B23A0E0F3F88612B96459DCCAAC1E1 /* GHTableRow.m */; };
+		761AC9A9EF9A4ADAAACC73F3FAFB5BA1 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC5016BA83F16B0C24B62FD59C1C76C /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DCDDB19D8D260CEEC5C63DB2FCAC0B /* GHGherkinLanguageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D0D5B22958547FAF578429A0428812 /* GHGherkinLanguageSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		774D5634A12CF53E92283C0B65441C9C /* GHTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E8B85F9FD66DFB1F88BFAC463D1474 /* GHTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		793C0FF08B2C9396332E90587F2AC288 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C930123C439C3DC3AB3EED6CDF7D03 /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0F243ECE01C725382C722951951E01 /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073F78870BF460FD0826D14BFB03A46 /* GHParser.m */; };
+		7A14D1C957C15E1552B7AFF364662FD8 /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E838384CA2EF404967096C3B01B04930 /* NSException-KIFAdditions.m */; };
+		7B1BCA07DBC5358986E339E28A8BCCEF /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01937EC2879DAB2B77328A53CB371099 /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B798E4E09F004EADEF9430F947BB556 /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3A0A85D948CB64827C29F4A343DED /* GHDocString.m */; };
+		7B9DCAA5BF37E3D769164884C0EF56A9 /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BBFF3D65C0035D2D63859A434ACA7 /* CCIStep.m */; };
+		7C42071AB4D0DD4EBC042D00916FDC7F /* GHScenario.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F104FA1E43D4C7888EFCF52AE7247E3 /* GHScenario.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D1F1015D74B79929D4D58628D4201B1 /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2755282B96BB8D727D757570BA85B87 /* GHScenarioDefinition.m */; };
+		7E2305FEC69C75543827D802F68F7A41 /* GHGherkinDialectProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1544DF557BBED304344C0718C2FC41BC /* GHGherkinDialectProviderProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E6EA4719AA195051971234351ADBA01 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B693510E21765EC5F81AD16B804458A3 /* GHComment.m */; };
+		7E7BEE80DE877A315FBD216AF3768A49 /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C26629E52C0A4DA6E88C2B897D20F269 /* GHAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F1CC0BA786CB6D53EDFF8F4E190D17A /* Cucumberish-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2135A6020153B998D27207F0263D2F9A /* Cucumberish-iOS10.0-dummy.m */; };
+		7F305907037F8228E40484F3EEEDE41C /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B1271A4183344F17DEB47787D7C933DC /* CCIBackground.m */; };
+		8068630B39655E9449032E6C708B57FB /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E58F5F454A89A4766E1BA2A7EA306 /* GHLocation.m */; };
+		80D99FA854D416311252A1D17FFC326C /* Pods-CucumberishFeatureDefinition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA89AA3F0328BF4F071584DBDD168F9 /* Pods-CucumberishFeatureDefinition-dummy.m */; };
+		8158E8F50B251164591BC3A29246D737 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B51976392A6576F9EB89F6FE1026F3 /* GHStep.m */; };
+		8262B53092D7A02FDAEBF5AB71082E7F /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A90CF36047D8EB19CAE269462334EA2 /* gherkin-languages.json */; };
+		831DB152AA5C6563C8D403A2F90D3CB3 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = CECF0AAE4EBA079FA8BC74CA212BAA0E /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842089A8189C009D9488BF6F061DD95A /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C9B14D76457811128121ACFEE0F2A3 /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8490634694972ABC442C213ECC47471B /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = 2999F4D7B812DBCF76DDE2C2DBA3070E /* NSString+Trim.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86CB13F0F04369C3321C58171298D48D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57104F1BCA3F9CBB3636CCBA2A26D47 /* CoreGraphics.framework */; };
+		88143BD1E5955E054C398144C2A339CF /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD12A92F839E98A938E81FEE9A43957 /* KIFSystemTestActor.m */; };
+		89E978C4A09906358CB1A8FFB5F1B86D /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F804B040F8B03EE8368F24856AB22A /* GHToken.m */; };
+		89FDC2956342E8D94FF13AFAECB5EF2B /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE9312D983784018B3C4AAD3707B14C /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AFF09513DD31693422443A7BB069BF0 /* GHGherkinDialect.h in Headers */ = {isa = PBXBuildFile; fileRef = 50228E047660634CDBA0AE806409FC46 /* GHGherkinDialect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B52C463012AFD06349F000374476E2C /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6403160DA39B0748FBBACF5215ADDC /* CCIHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CC3C3C597EA72ADD85435E15FB9E7D4 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F57F96E2E48E3C8DB634878E0E40 /* GHTokenMatcher.m */; };
+		8D8C925FF8D51078D4DBDA5BCF31F156 /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = FE77817AEC1357EC18574D4E401CC1F9 /* CCIScenarioDefinition.m */; };
+		8FB92A2E7C3DA2333BF82A6979AC07D0 /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77908D92F0A709013F1A93407749B7ED /* UIAccessibilityElement-KIFAdditions.m */; };
+		907BFB48CBDCD4CBAA1AEFFFBC550028 /* GHGherkinLanguageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E9231732B73AADCAFEDA416366A943 /* GHGherkinLanguageConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9350372F7879DFD7A05B46A34B43FCD7 /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA7FD0E532F261C3EE04A86340107B2 /* GHBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		951B36EE45957DA226EBCBC6BD3834FC /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F675479CBE5E8383CA723A19F61BC1 /* GHDataTable.m */; };
+		952A8D82846743940B930510CF21AE21 /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C26629E52C0A4DA6E88C2B897D20F269 /* GHAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		967313D3D1459A65A4B9AB51F581774F /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA012551E2B527788E4E224F4E2C0 /* GHFeature.m */; };
+		96E3E8CF92A658978523994B540F1DB5 /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = F25C2E58CB6436DED9FF25524686A2AC /* GHTag.m */; };
+		96E8EBA2362660F373890873BC6205BC /* GHFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = D9514CB8E52DB03D70F66C87A206B508 /* GHFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96ED500587BA8BBE9FC2ED7C8AD2CEEC /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = F579F4ECD50EA577753D30A6D1A5C8FF /* GHExamples.m */; };
+		97854BEAD0B56E1268F4B94707F0184F /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 039E91ADF6EBC83331948097B9779FC4 /* GHParser+Extensions.m */; };
+		979D7C894F18554C0222681AB4ED7BD7 /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 420D4BEF855D814D541A8E879800CA20 /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9893CD715253A87A5C208DF6C46D031A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE313C606727CF7F2712969CF6A80DF /* XCTest.framework */; };
+		9999AC2CBD0C81EE70AD2E2486FE4CC1 /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B131724D16C35B7F65894EE520D51C /* GHGherkinLine.m */; };
+		99D3FB15C45729FB29E4328482E0CC28 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 415C318A2EFDEB179E27FB849D69FBAB /* NSString+Formatter.m */; };
+		99F1BB30DF3B3A8E9B6F4E7DE7581145 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 896E022F21A631B6F7FD2416E5E508F9 /* CCIStepDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E3DC2DC0D6D3DF7F814CC6A699CDEDB /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 320CC22E8EDBB37DE38767EDEF7F1915 /* UIApplication-KIFAdditions.m */; };
+		9E7F9FCF5E5FB33EB3ADD8F90E4FFCAC /* KIFAccessibilityEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = B146ACBC68B18132B771D2DF1504A840 /* KIFAccessibilityEnabler.m */; };
+		A0EDF6F2A5349F499D50EDBAC9AD8787 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C6E09EE6FD371742DDB35EF658AD8A /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EC03E9611EC485750B0C4DE543A528 /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B23A0E0F3F88612B96459DCCAAC1E1 /* GHTableRow.m */; };
+		A5837C8604593752DC639B7E569D28A4 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = D86AE14047F65CCCBCCDD76D647CD7EA /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5DF2D19799E60D087A4C12CC5940DE9 /* NSString+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D545A4B889B2F77C4D4D3C1CB5C71DF7 /* NSString+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6500A7A1B990FB0C5D432FAC82FC1EE /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CCB84A8194A602BF3454AE8C9FB459 /* GHTokenScanner.m */; };
+		A7DB190C84201B13FB9E7EA913D0F315 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6E3DBEDB71A4EBF7036439C446228 /* CCIFeature.m */; };
+		ACCDD04E5CFA0E7A3263992F0F5BBDF0 /* GHStep.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C0921C66B8B0724207CAC11D5E6D16 /* GHStep.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD5419787433AB74AA57A93DDAC76962 /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B15559A676CACC01B3147054E88903 /* NSString+Formatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADB7B96106EE32A61131D79F7D1EC657 /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF30A9558ECB7E516AE53F4C040C14D /* KIFTypist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF6C7B7A3A0C41D6615B110DD25F4A7 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F57F96E2E48E3C8DB634878E0E40 /* GHTokenMatcher.m */; };
+		B23A84D2760B459F26E5063EE57DC7D3 /* GHHasLocationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E71ECF0C782EFEE6F977C19AFD2C82 /* GHHasLocationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B428158F56EE480BEB77098C61E7964A /* GHLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE30F5663A40AAD27F6348E0C4578B5B /* GHLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4D4771C8F88F3FDF9FA03E8FA8987C1 /* GHStepArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DE9D12CCE3919456F126B7EBA65457 /* GHStepArgument.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B84CFA77D14449AB795E15E08200832F /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EEC6C2C776BD194BF7620C86888549 /* CCIStepDefinition.m */; };
+		B867F9CB4CFEDB2A6D433BA197900FCF /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C251F243A17C147E6340205957425F30 /* GHGherkinLineSpan.m */; };
+		B9D67AAB2E9416E4E1276C93EDCC2F52 /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F675479CBE5E8383CA723A19F61BC1 /* GHDataTable.m */; };
+		BA83EE63F336AD12DFC3D0C5470340D4 /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = F430B6322EB5A7601579E1FEFB4F56E3 /* NSArray+Hashes.m */; };
+		BB0CB3A945A59456644384DC8D1D7602 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D99B5569795B56F2ECE7255D64D6C /* GHStepArgument.m */; };
+		BBA8782CB7C2C4BF93C7820FB56771B5 /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 039E91ADF6EBC83331948097B9779FC4 /* GHParser+Extensions.m */; };
+		BE9EE873BD44CA25D3A2935B8BD14951 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B49395900E0F4E427D749FBEC003D1 /* GHAstBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BECBE083C1E67D3453303759574FBDAE /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F0D2BE2EFE2D678B707834F995FD8D /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF57307F64A1311913CF5556E912BDA4 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C6E09EE6FD371742DDB35EF658AD8A /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF89A39EF17BA55E25A46489E18D09B3 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC7B1239FF807BE8956B3E83D8F0A9C /* GHNode.m */; };
+		BFC9023824E6BB1E7BE8D8FBD1E64125 /* GHDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD28CA6E271E6F5B1FB88B833942BDB /* GHDataTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0F49531E848E3ADE5B3D38009C1A254 /* UIScreen+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 67935492127EDAB20A8CA695C9A807F4 /* UIScreen+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C22F60A7702A9D3E122D6F8A93EC0B56 /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0862E11BD703B0C2881BE9471A6944FB /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C29E976097331ACDFCDB2DE0518B7453 /* GHHasRowsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DA991DE9E33EF482779B554516073890 /* GHHasRowsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3D260E8A0A0659CA00185AB29A4558B /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B959D1BCE1557A7F6825FD6DB6F0A0 /* CCIFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5334F3DB7F9F2127F907E73DAD0F144 /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F39EB1F39F67E424D859E1CD6FA1B5 /* GHGherkinDialect.m */; };
+		C5C613A3800CC50D383524377B71B5E8 /* GHGherkinDialectProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F600BB2DE85F986F336AFBEF28D18D /* GHGherkinDialectProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7D3C17B13D20697082F003EF40DE573 /* KIFTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 498631E84382E2D6B10ED036157A6ED6 /* KIFTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8575ED2EBA101C80022F1F641FC3F12 /* GHHasLocationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E71ECF0C782EFEE6F977C19AFD2C82 /* GHHasLocationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C87FDF503EF644B0648710D0CAB71C7A /* GHScenarioDefinition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A41FE612A5C700D8A55599CBD3C0292C /* GHScenarioDefinition_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8EB677B6CC0193C332E50F18062A17F /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = B79976FF15369E70C5DF238481CCFCA4 /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C948F300320D1D3692FCC649BA7545D2 /* GHGherkinDialectProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1544DF557BBED304344C0718C2FC41BC /* GHGherkinDialectProviderProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBA5FCE9E8F88E59F1BBAB869748ADAE /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9329E0EBBA94E7EF632C6FCAC08950 /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD3819CC49D00A6039047E4B0A0C7451 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A88ED8BBB5B0B6FA59AD6E118AC0F9 /* UITouch-KIFAdditions.m */; };
+		CE1E4A6A71F6DF0E2FD1AA302E4AF57B /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073F78870BF460FD0826D14BFB03A46 /* GHParser.m */; };
+		CEFF80C93A363D642418F6D80E381CA5 /* GHExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC650FD65456DBD2072D6C3EFFE7D01 /* GHExamples.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF96C0691BEE09344D78CAB9B87ACF3E /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C93E58E76C4D172ABEC4697A950041 /* UIScrollView-KIFAdditions.m */; };
+		CFF533F3BE4482C018541B11D7F1B6D4 /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7655A2172875B03D4DDC42B653953 /* CCIAroundHock.m */; };
+		D1549B128CB6C102475B7C5A589390E0 /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 852C5F390227867BA98D970BA4D194CB /* CAAnimation+KIFAdditions.m */; };
+		D20BF34798065B5D92C8C6430B9D64E0 /* GHDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD28CA6E271E6F5B1FB88B833942BDB /* GHDataTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D295CD552A4B791EAD2CE2B149E08DBE /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9543A6CC6A67C5F35D7C19A03E42FB /* NSFileManager-KIFAdditions.m */; };
+		D2A89BBF681358418909E58B897733C4 /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B131724D16C35B7F65894EE520D51C /* GHGherkinLine.m */; };
+		D318A1C9E7B9DA4AC6DF95F877166DB3 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = CECF0AAE4EBA079FA8BC74CA212BAA0E /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3E488499B2C4C8BD8E41066A6258A77 /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = EE223B635E5DEC210F6CB08E07028F20 /* CCIExample.m */; };
+		D6A28C9E1215DFA30E9560836AAE7409 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 896E022F21A631B6F7FD2416E5E508F9 /* CCIStepDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D76E0318D97A29EF4058A09472EC1A72 /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = 2999F4D7B812DBCF76DDE2C2DBA3070E /* NSString+Trim.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7C1DE5299ECFA11161F3E2FF4CBAF0E /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC10C18DBE9AED6265809C3738102422 /* CCIStepsManager.m */; };
+		D8E9637338425C3DB87BEED13CCDB775 /* GHTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = D472EC13070EC0F20F6D0658CDF52379 /* GHTableRow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9F0DE66958DEC9C8AB974CAED42D75C /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01937EC2879DAB2B77328A53CB371099 /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA82437523D3AB25611A680888DB83A3 /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1394D9E40222756D06AE9C1CFF0C3D74 /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB67DBB13F71D45861451B25195F0AEE /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F804B040F8B03EE8368F24856AB22A /* GHToken.m */; };
+		DC53A26E310C6B5009DC847DD97CD73D /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = D86AE14047F65CCCBCCDD76D647CD7EA /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD20E9E2FF53581BC10A066AD3042D49 /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E393B7FCA331E587DB4E1CE6AA8D8BCA /* GHGherkinLanguageSetting.m */; };
+		DD70A761A86364CDCB54452BB3D3FE24 /* GHTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A51AF8A5B590807F10BE11C36FD1364 /* GHTableCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDCE1B7E8587C2A49E5BC4D57D205931 /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = D38810DD57BF9701D281CC55EEB4D649 /* CCIArgument.m */; };
+		DE84609982194C4848F4B65C765DE75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		DE8E9C48B065FBF0A77C8FC414D682ED /* GHToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F5278413D3D9DA2ED414DA8E2A0B5C /* GHToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEAA89126F1257C93DB98B4179D9ACC6 /* GHTokenScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D631DF22F40C61D722F367E09D000D /* GHTokenScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEC6F7F5FD480CB49426532790B22D77 /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D589C4DAA8259AA9E56CB662BFEB75B /* UIAutomationHelper.m */; };
+		DEC92E891FE81FF409F00525A638BFDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		E056CEFF541E18A3D127843303386548 /* GHDocString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4C1C27CEF0828234160A4D54953D32 /* GHDocString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E100418508D2EF2EACD92EFE8F4E3705 /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DC04EDFBD496F704C5752A4C2A27B3 /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E19C8DE8E9E3335FB6AF038768B4A3B9 /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D72F400B8BC9724E26D2F900F0C58DA /* KIF-dummy.m */; };
+		E27D35E5BD1D9B70A4DA82241983F436 /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A90CF36047D8EB19CAE269462334EA2 /* gherkin-languages.json */; };
+		E388CED2229CD73FF56DF3213D152C24 /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF4FCC4CEBEBA360BBB992178F09A1 /* GHGherkinDialectProvider.m */; };
+		E5D48777F00A066D4C01A83944CB8F43 /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB184D6FE897CAFE8466F8DE83DAD61 /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E620CA88379B9FD9FE04FD16F8C58EC0 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE886BCA47540E4B262DDCFA37ECC2EE /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D5E07570CB94920749E7D80E544B62 /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = B914C48321C4DAC2EE8A6A4CAD40A6C0 /* KIFTestActor.m */; };
+		E9D83E31D294C01DE92D2D14014B20C3 /* GHTokenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE42E0372056B2EFF93F744FEE8A965 /* GHTokenMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA43240B0BDA45A1018400C6D7145C6E /* GHHasDescriptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D42678222A93C13FF268B67882D4DEA0 /* GHHasDescriptionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB8E49EBA0BA9B7F5566DD0048AA5BF0 /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB071AFA1255027D5F9A9275432ED882 /* GHAstBuilder.m */; };
+		EC860AD5B4AF4778CA10C3C13C383DF7 /* Cucumberish-iOS9.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C403E6F36DFA2E4ED5E50FE8A6945C /* Cucumberish-iOS9.2-dummy.m */; };
+		ECCFF68AA8902EE57C7A82A2CC142E88 /* GHHasStepsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EACA1EE7FC987A60E34AF2F86778FF /* GHHasStepsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED46D92DD3B5228731338D34B04E3C6C /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B5796232CAEFB97BDCDF245448F6E9 /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED8E40CCA96D81797078FF7141C41B6F /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = DD85DF04CC381177A7E529FB7E4F87E9 /* GHScenarioOutline.m */; };
+		EDBD8A6377697822255FAF341844689D /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB071AFA1255027D5F9A9275432ED882 /* GHAstBuilder.m */; };
+		EDFEB2BF0023EDF1EDF75F8B20983E14 /* GHParser+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FE6172EA4F36C6D10EF65EEA3433C1 /* GHParser+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF97B0228F7C61C2CCCD1643963B69E2 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC7B1239FF807BE8956B3E83D8F0A9C /* GHNode.m */; };
+		EFEE72C1B7485282FD305FBE685B2F62 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD48656CA1CDE44E376BF43490AA9A8 /* NSObject+Dictionary.m */; };
+		F13ECC846CD35F864A6171E50B71E7B9 /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B2621DD1651E258382FFD3A9D6C2B /* KIFUITestActor-ConditionalTests.m */; };
+		F1A932A792546F2B819E8D693C1944A4 /* GHFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = D9514CB8E52DB03D70F66C87A206B508 /* GHFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F32CF9AA3BECA4117D1064F0B57DBF86 /* GHStep.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C0921C66B8B0724207CAC11D5E6D16 /* GHStep.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3497D644B4D42617BCA13E0500114E3 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 415C318A2EFDEB179E27FB849D69FBAB /* NSString+Formatter.m */; };
+		F3B902038F36C10EFA9A0D368D1C5A41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */; };
+		F41C5D29A48A359824A6AA73F7C58B2B /* NSPredicate+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 409AEDAB65656350C74D9A2FC5C7D64C /* NSPredicate+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F564DEB3FD653DE8AB60888535F7FB10 /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3A0A85D948CB64827C29F4A343DED /* GHDocString.m */; };
+		F5E770A6D0293BC03B8C91580AD3E871 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E8CAD484DD8CF9C917319FB3014C9 /* UIEvent+KIFAdditions.m */; };
+		F633319D7CDACF486117B022E35EF345 /* GHGherkinLineSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = D6652758C045145C411ED792D5B2ECA0 /* GHGherkinLineSpan.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F68E2EB509863EC93CC31DA0051C47A0 /* GHGherkinLineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D99791C617802466AEBE95F5450A898 /* GHGherkinLineProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7108B1F084B67FAD7F019A7DF71B35D /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E378405BCEF5242D8181F31F34085B1 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F855E43203BAAA7A614CFFC77DDD88E4 /* GHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 953741B49F981B5180506A421DCE52AD /* GHParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8B128D2C026C7B094DFA15F85D27C8B /* GHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DF2E9149A87A2F54F9730917413191 /* GHNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8FE67C9F4162CE7DBDEE62C58F51B28 /* GHParserException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9971887A0DBA639A4FD812AAB32E381B /* GHParserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F91F2B009B6B846156EF33363A8E4E5E /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF4FCC4CEBEBA360BBB992178F09A1 /* GHGherkinDialectProvider.m */; };
+		F9CBD12DD167B9904A58438FE09DBC4F /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B38C974D810CB27657B935A007358450 /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F47471DA38D13459DBEA5745855875 /* GHScenario.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F104FA1E43D4C7888EFCF52AE7247E3 /* GHScenario.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9FD35428726175D9585ADD026EBBA75 /* GHLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE30F5663A40AAD27F6348E0C4578B5B /* GHLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB0DFC62F90C94721863844AD50B171F /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA7792FE07C55F51A4008E5ADDE75C /* CCILocation.m */; };
+		FC6A37D81C5F2E2B612F052893B9FBCE /* GHTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A51AF8A5B590807F10BE11C36FD1364 /* GHTableCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE389C6808E2A657C3F31DAE84BB4C87 /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E393B7FCA331E587DB4E1CE6AA8D8BCA /* GHGherkinLanguageSetting.m */; };
+		FE5F6FF482D036EE65A6E16020B2E9A8 /* CALayer-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4CC51263E5A405DE873A92E3A4AC87 /* CALayer-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0ACF7CE02154FA569083C94730CEAC /* GHGherkinDialect.h in Headers */ = {isa = PBXBuildFile; fileRef = 50228E047660634CDBA0AE806409FC46 /* GHGherkinDialect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF480626743007785D66835B2FE7D3ED /* GHHasTagsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F2697EA6E7FAC2722067B5DE258C1987 /* GHHasTagsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF7F6EA3966942D4073C0A97845039BD /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E8FF846386BF78DE5EC3CBE2D73805 /* GHTableCell.m */; };
+		FF8FB649AFFE0EDCC33DD99810257623 /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E46AB31277C4B08FA031FE93115E71A /* KIFTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFBCAC4309C01BEF98337259C763F61C /* Pods-CucumberishExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B510C7A1EA68E3B31A6C05A1CCC7A10 /* Pods-CucumberishExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15764D480F5ED0524B60F7C2A167D555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6B45ABC3C3C7D9D0E8DA52A06088EA;
+			remoteInfo = KIF;
+		};
+		29979ECFCF0367FEB484B968B1378A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F2A6AE9159650CB14307DCED04A297;
+			remoteInfo = "Cucumberish-iOS9.2";
+		};
+		59C0C915B581A3F53E67FE2047DB77A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB8E630AE79B872C681D613C8513A78;
+			remoteInfo = "Cucumberish-iOS10.0-GherkinLanguages";
+		};
+		839A8B3AC8EA62726294FF731BC787DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F2A6AE9159650CB14307DCED04A297;
+			remoteInfo = "Cucumberish-iOS9.2";
+		};
+		B7A7BF74AB66E809213877BA7F60ECF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2184DF945FE9FF60E886F89570B1281;
+			remoteInfo = "Cucumberish-iOS9.2-GherkinLanguages";
+		};
+		CCAE92AE3C95E355E27D803DB58C25F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73DE9FC0F0AD70A00749D21BBF05FEA6;
+			remoteInfo = "Cucumberish-iOS10.0";
+		};
+		E41A7D0171EEAB80AF50B20851FB3C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F2A6AE9159650CB14307DCED04A297;
+			remoteInfo = "Cucumberish-iOS9.2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E3A0A85D948CB64827C29F4A343DED /* GHDocString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHDocString.m; path = Cucumberish/Dependencies/Gherkin/GHDocString.m; sourceTree = "<group>"; };
+		0155523190151495BA172497DFB0F577 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
+		01937EC2879DAB2B77328A53CB371099 /* CCILocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCILocation.h; path = Cucumberish/Core/Models/CCILocation.h; sourceTree = "<group>"; };
+		022616B133CB34F8BEEB545DB54D6A0C /* Pods-CucumberishFeatureDefinition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishFeatureDefinition-frameworks.sh"; sourceTree = "<group>"; };
+		039E91ADF6EBC83331948097B9779FC4 /* GHParser+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHParser+Extensions.m"; path = "Cucumberish/Dependencies/Gherkin/GHParser+Extensions.m"; sourceTree = "<group>"; };
+		041D99B5569795B56F2ECE7255D64D6C /* GHStepArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHStepArgument.m; path = Cucumberish/Dependencies/Gherkin/GHStepArgument.m; sourceTree = "<group>"; };
+		0515AE127502DDA13E0132BADDA85CFE /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
+		068CF824D35D761DF54F79B98E5A2936 /* CCIAroundHock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIAroundHock.h; path = Cucumberish/Core/Models/CCIAroundHock.h; sourceTree = "<group>"; };
+		06C930123C439C3DC3AB3EED6CDF7D03 /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBlockDefinitions.h; path = Cucumberish/Core/CCIBlockDefinitions.h; sourceTree = "<group>"; };
+		0787B05495DA087DB2829CDB518E866B /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
+		07B51976392A6576F9EB89F6FE1026F3 /* GHStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHStep.m; path = Cucumberish/Dependencies/Gherkin/GHStep.m; sourceTree = "<group>"; };
+		0862E11BD703B0C2881BE9471A6944FB /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		09B959D1BCE1557A7F6825FD6DB6F0A0 /* CCIFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIFeature.h; path = Cucumberish/Core/Models/CCIFeature.h; sourceTree = "<group>"; };
+		0B510C7A1EA68E3B31A6C05A1CCC7A10 /* Pods-CucumberishExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CucumberishExample-dummy.m"; sourceTree = "<group>"; };
+		0B756E8DF7A8DBD3C51AA784AEEF032F /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
+		0FD12A92F839E98A938E81FEE9A43957 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
+		1073F78870BF460FD0826D14BFB03A46 /* GHParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHParser.m; path = Cucumberish/Dependencies/Gherkin/GHParser.m; sourceTree = "<group>"; };
+		10E71ECF0C782EFEE6F977C19AFD2C82 /* GHHasLocationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasLocationProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasLocationProtocol.h; sourceTree = "<group>"; };
+		13059A81FE1EBB92D368906CC02FFDFE /* Pods-CucumberishExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishExample.release.xcconfig"; sourceTree = "<group>"; };
+		1389199240E3FBF3D6C5FBA704275683 /* Pods-CucumberishExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishExampleTests-resources.sh"; sourceTree = "<group>"; };
+		1394D9E40222756D06AE9C1CFF0C3D74 /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
+		14EACA1EE7FC987A60E34AF2F86778FF /* GHHasStepsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasStepsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasStepsProtocol.h; sourceTree = "<group>"; };
+		1544DF557BBED304344C0718C2FC41BC /* GHGherkinDialectProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinDialectProviderProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialectProviderProtocol.h; sourceTree = "<group>"; };
+		16C6E09EE6FD371742DDB35EF658AD8A /* CCIStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStep.h; path = Cucumberish/Core/Models/CCIStep.h; sourceTree = "<group>"; };
+		18B15559A676CACC01B3147054E88903 /* NSString+Formatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Formatter.h"; path = "Cucumberish/Utils/NSString+Formatter.h"; sourceTree = "<group>"; };
+		18B5796232CAEFB97BDCDF245448F6E9 /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "Classes/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		19DE9D12CCE3919456F126B7EBA65457 /* GHStepArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHStepArgument.h; path = Cucumberish/Dependencies/Gherkin/GHStepArgument.h; sourceTree = "<group>"; };
+		1A026559143089DA310D22709A5DF552 /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		1A238AF9FF6781813287B1071BDBB3CF /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
+		1A3EBD95616DC9D62055C712194B90ED /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
+		1ABB543F5AE5E5F1B19BD2DEB3302A62 /* Cucumberish-iOS9.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Cucumberish-iOS9.2.xcconfig"; path = "../Cucumberish-iOS9.2/Cucumberish-iOS9.2.xcconfig"; sourceTree = "<group>"; };
+		1ABC74B30CFF909D24ED24C4D359F20D /* Pods-CucumberishExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2D375E3C2835AF3D0B9DA3E3B5C5C7 /* Pods-CucumberishFeatureDefinition-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishFeatureDefinition-resources.sh"; sourceTree = "<group>"; };
+		1E46AB31277C4B08FA031FE93115E71A /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
+		1F104FA1E43D4C7888EFCF52AE7247E3 /* GHScenario.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenario.h; path = Cucumberish/Dependencies/Gherkin/GHScenario.h; sourceTree = "<group>"; };
+		1F30A67AEE4CC6B67FB1E1550102E294 /* NSString+Trim.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Trim.m"; path = "Cucumberish/Dependencies/Gherkin/NSString+Trim.m"; sourceTree = "<group>"; };
+		20B9D39EC226E8195706ED3F5AFD6BFE /* libCucumberish-iOS9.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libCucumberish-iOS9.2.a"; path = "libCucumberish-iOS9.2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2135A6020153B998D27207F0263D2F9A /* Cucumberish-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cucumberish-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		253BA76B8F38C305353A245FD8D0271E /* GherkinLanguages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GherkinLanguages.bundle; path = GherkinLanguages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C9B14D76457811128121ACFEE0F2A3 /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
+		2999F4D7B812DBCF76DDE2C2DBA3070E /* NSString+Trim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Trim.h"; path = "Cucumberish/Dependencies/Gherkin/NSString+Trim.h"; sourceTree = "<group>"; };
+		29DBA44EF670390BBB07490D0D0E67FA /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		2A475DC2C0285ECA5F5200E93830DCF8 /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
+		2A63FE0C1FFDC060716E67AB5CF06B97 /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
+		2D589C4DAA8259AA9E56CB662BFEB75B /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
+		2DA7FD0E532F261C3EE04A86340107B2 /* GHBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHBackground.h; path = Cucumberish/Dependencies/Gherkin/GHBackground.h; sourceTree = "<group>"; };
+		2F4CC51263E5A405DE873A92E3A4AC87 /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "Additions/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
+		320CC22E8EDBB37DE38767EDEF7F1915 /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
+		33E8FF846386BF78DE5EC3CBE2D73805 /* GHTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTableCell.m; path = Cucumberish/Dependencies/Gherkin/GHTableCell.m; sourceTree = "<group>"; };
+		35B7655A2172875B03D4DDC42B653953 /* CCIAroundHock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIAroundHock.m; path = Cucumberish/Core/Models/CCIAroundHock.m; sourceTree = "<group>"; };
+		378754C8831F8DD8BD4B17AA301C3BCB /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
+		3A8E8CAD484DD8CF9C917319FB3014C9 /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		3BD28CA6E271E6F5B1FB88B833942BDB /* GHDataTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHDataTable.h; path = Cucumberish/Dependencies/Gherkin/GHDataTable.h; sourceTree = "<group>"; };
+		3DBB3504E8D19F3D4A07E63C90D15FB6 /* Pods-CucumberishExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CucumberishExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		409AEDAB65656350C74D9A2FC5C7D64C /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "Additions/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
+		40A75629CFF3364EB88210949E5ED8AD /* Pods-CucumberishFeatureDefinition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishFeatureDefinition.debug.xcconfig"; sourceTree = "<group>"; };
+		415C318A2EFDEB179E27FB849D69FBAB /* NSString+Formatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Formatter.m"; path = "Cucumberish/Utils/NSString+Formatter.m"; sourceTree = "<group>"; };
+		420D4BEF855D814D541A8E879800CA20 /* CCIScenarioDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIScenarioDefinition.h; path = Cucumberish/Core/Models/CCIScenarioDefinition.h; sourceTree = "<group>"; };
+		4325C79B142CBECFEB864A99BE74CFB1 /* GHParserException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHParserException.m; path = Cucumberish/Dependencies/Gherkin/GHParserException.m; sourceTree = "<group>"; };
+		44D631DF22F40C61D722F367E09D000D /* GHTokenScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTokenScanner.h; path = Cucumberish/Dependencies/Gherkin/GHTokenScanner.h; sourceTree = "<group>"; };
+		47E8B85F9FD66DFB1F88BFAC463D1474 /* GHTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTag.h; path = Cucumberish/Dependencies/Gherkin/GHTag.h; sourceTree = "<group>"; };
+		48EEC6C2C776BD194BF7620C86888549 /* CCIStepDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStepDefinition.m; path = Cucumberish/Core/Models/CCIStepDefinition.m; sourceTree = "<group>"; };
+		496566833F2D36312CB752BC8ECD6BEB /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "Additions/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
+		498631E84382E2D6B10ED036157A6ED6 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
+		4A90CF36047D8EB19CAE269462334EA2 /* gherkin-languages.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "gherkin-languages.json"; path = "Cucumberish/Dependencies/Gherkin/gherkin-languages.json"; sourceTree = "<group>"; };
+		4B4C1C27CEF0828234160A4D54953D32 /* GHDocString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHDocString.h; path = Cucumberish/Dependencies/Gherkin/GHDocString.h; sourceTree = "<group>"; };
+		4C142F6A6025186C49159E89D3841243 /* Pods-CucumberishFeatureDefinition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishFeatureDefinition.release.xcconfig"; sourceTree = "<group>"; };
+		4D8D22846DA7391E63ED34CBDDF06DBE /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
+		4EA89AA3F0328BF4F071584DBDD168F9 /* Pods-CucumberishFeatureDefinition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CucumberishFeatureDefinition-dummy.m"; sourceTree = "<group>"; };
+		4F311618787CE632000CA5FB6D46287A /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
+		50228E047660634CDBA0AE806409FC46 /* GHGherkinDialect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinDialect.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialect.h; sourceTree = "<group>"; };
+		503BBBC01728C9846D01FEAEE65A2529 /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
+		51E9231732B73AADCAFEDA416366A943 /* GHGherkinLanguageConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLanguageConstants.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageConstants.h; sourceTree = "<group>"; };
+		526649E6199C1CA0E0049C3273C144F8 /* NSArray+Hashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Hashes.h"; path = "Cucumberish/Utils/NSArray+Hashes.h"; sourceTree = "<group>"; };
+		535F39E91C1C03B99B357651852C7A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		54C6E3DBEDB71A4EBF7036439C446228 /* CCIFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIFeature.m; path = Cucumberish/Core/Models/CCIFeature.m; sourceTree = "<group>"; };
+		57B49395900E0F4E427D749FBEC003D1 /* GHAstBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHAstBuilder.h; path = Cucumberish/Dependencies/Gherkin/GHAstBuilder.h; sourceTree = "<group>"; };
+		58BF4FCC4CEBEBA360BBB992178F09A1 /* GHGherkinDialectProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinDialectProvider.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialectProvider.m; sourceTree = "<group>"; };
+		59F675479CBE5E8383CA723A19F61BC1 /* GHDataTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHDataTable.m; path = Cucumberish/Dependencies/Gherkin/GHDataTable.m; sourceTree = "<group>"; };
+		5A8F28800053A8C1EE4915F6E3B38C98 /* KIFUIViewTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIViewTestActor.h; path = Classes/KIFUIViewTestActor.h; sourceTree = "<group>"; };
+		5C5FC153E248CFBCA2DA6803C06BD90E /* libPods-CucumberishExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CucumberishExample.a"; path = "libPods-CucumberishExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC650FD65456DBD2072D6C3EFFE7D01 /* GHExamples.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHExamples.h; path = Cucumberish/Dependencies/Gherkin/GHExamples.h; sourceTree = "<group>"; };
+		5E6403160DA39B0748FBBACF5215ADDC /* CCIHock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIHock.h; path = Cucumberish/Core/Models/CCIHock.h; sourceTree = "<group>"; };
+		5EB380E5CDD2D7D9596194D53EB3AE53 /* CCIBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBackground.h; path = Cucumberish/Core/Models/CCIBackground.h; sourceTree = "<group>"; };
+		61F804B040F8B03EE8368F24856AB22A /* GHToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHToken.m; path = Cucumberish/Dependencies/Gherkin/GHToken.m; sourceTree = "<group>"; };
+		63BB92B86BE57935DDD1CA02DC60748E /* CCIHock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIHock.m; path = Cucumberish/Core/Models/CCIHock.m; sourceTree = "<group>"; };
+		643BA012551E2B527788E4E224F4E2C0 /* GHFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHFeature.m; path = Cucumberish/Dependencies/Gherkin/GHFeature.m; sourceTree = "<group>"; };
+		65033E38E87410F6A202A58BE0D6C9ED /* Pods-CucumberishExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		652CDA4328EF7B071DDC9937461144C5 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		6569D7ED132DB01E6EE093908ED33601 /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
+		65F1DB8AFBE35FCECECD00CE6D2B0B75 /* GHBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHBackground.m; path = Cucumberish/Dependencies/Gherkin/GHBackground.m; sourceTree = "<group>"; };
+		67935492127EDAB20A8CA695C9A807F4 /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
+		67CBF12F80303D31560B7D1EE427FE90 /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKIF.a; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D657BC4D9926EF4D5725DABB72F24D /* Pods-CucumberishExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		6D9329E0EBBA94E7EF632C6FCAC08950 /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
+		6E9543A6CC6A67C5F35D7C19A03E42FB /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
+		6EEF89D36CDC1930DA43FA16ACE6DA82 /* libPods-CucumberishExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CucumberishExampleUITests.a"; path = "libPods-CucumberishExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F0D2BE2EFE2D678B707834F995FD8D /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
+		71882E7EEB21C05039F8B62A74C5AAB0 /* Pods-CucumberishExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		71A7C4F9697B12C440BCD78B14B562F2 /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
+		71C93E58E76C4D172ABEC4697A950041 /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
+		733E58F5F454A89A4766E1BA2A7EA306 /* GHLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLocation.m; path = Cucumberish/Dependencies/Gherkin/GHLocation.m; sourceTree = "<group>"; };
+		73A27B69AB90F9323105C57428A88984 /* KIFUIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIObject.m; path = Classes/KIFUIObject.m; sourceTree = "<group>"; };
+		741C77081C9A3FE77EFF055084C86893 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		74C403E6F36DFA2E4ED5E50FE8A6945C /* Cucumberish-iOS9.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Cucumberish-iOS9.2-dummy.m"; path = "../Cucumberish-iOS9.2/Cucumberish-iOS9.2-dummy.m"; sourceTree = "<group>"; };
+		76B23A0E0F3F88612B96459DCCAAC1E1 /* GHTableRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTableRow.m; path = Cucumberish/Dependencies/Gherkin/GHTableRow.m; sourceTree = "<group>"; };
+		778FE39FFB26060658E7250BA727F3E8 /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
+		77908D92F0A709013F1A93407749B7ED /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
+		78B131724D16C35B7F65894EE520D51C /* GHGherkinLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLine.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLine.m; sourceTree = "<group>"; };
+		7B035E3C40F2A07ECBAB7A04F136C755 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
+		7B0884CAED4F091154A8FC1DD2639B6A /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "Classes/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
+		7BF778CFB64803EE1D591789113C01B1 /* Pods-CucumberishExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CucumberishExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D5BD92DCDC4E2A26473142DC19EA03D /* GHGherkinLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLine.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLine.h; sourceTree = "<group>"; };
+		7D72F400B8BC9724E26D2F900F0C58DA /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
+		7DFA7792FE07C55F51A4008E5ADDE75C /* CCILocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCILocation.m; path = Cucumberish/Core/Models/CCILocation.m; sourceTree = "<group>"; };
+		7E378405BCEF5242D8181F31F34085B1 /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
+		7F80DF6A9D5A30C0FD111ED44639B7B6 /* Pods-CucumberishExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CucumberishExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82A885985BB8AAEA1CB15FCBCF11AFB9 /* GHAstNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHAstNode.m; path = Cucumberish/Dependencies/Gherkin/GHAstNode.m; sourceTree = "<group>"; };
+		82CC2446798667BC8735D6AA3B1F0061 /* Pods-CucumberishExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishExample-frameworks.sh"; sourceTree = "<group>"; };
+		82F2B4A691A81F4DCB7D40919B70B2AF /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
+		83BD4AD1ADBF6E3DD3A47C1299CE3C64 /* Pods-CucumberishExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CucumberishExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		852C5F390227867BA98D970BA4D194CB /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "Additions/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
+		86494AB465BA90FFA2A952EFB0B1D39A /* Pods-CucumberishExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishExample-resources.sh"; sourceTree = "<group>"; };
+		896E022F21A631B6F7FD2416E5E508F9 /* CCIStepDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStepDefinition.h; path = Cucumberish/Core/Models/CCIStepDefinition.h; sourceTree = "<group>"; };
+		8A51AF8A5B590807F10BE11C36FD1364 /* GHTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTableCell.h; path = Cucumberish/Dependencies/Gherkin/GHTableCell.h; sourceTree = "<group>"; };
+		8D99791C617802466AEBE95F5450A898 /* GHGherkinLineProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLineProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineProtocol.h; sourceTree = "<group>"; };
+		8DE313C606727CF7F2712969CF6A80DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E334CB49192E8A6B5E9F19FB31AAE38 /* Pods-CucumberishExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F11CF212739D28DC949C171627A267C /* ResourceBundle-GherkinLanguages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-GherkinLanguages-Info.plist"; path = "../Cucumberish-iOS9.2/ResourceBundle-GherkinLanguages-Info.plist"; sourceTree = "<group>"; };
+		8F2C7DD371978A74E85AFE6087C87D95 /* GHComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHComment.h; path = Cucumberish/Dependencies/Gherkin/GHComment.h; sourceTree = "<group>"; };
+		8FB184D6FE897CAFE8466F8DE83DAD61 /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
+		904D14828E31A45D1243E49A57A4626A /* Pods-CucumberishExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CucumberishExampleTests-dummy.m"; sourceTree = "<group>"; };
+		910F14C625C5D6E2C6FBA9CA9D50CE73 /* CCIFeaturesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIFeaturesManager.m; path = Cucumberish/Core/Managers/CCIFeaturesManager.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953741B49F981B5180506A421DCE52AD /* GHParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHParser.h; path = Cucumberish/Dependencies/Gherkin/GHParser.h; sourceTree = "<group>"; };
+		9712F16A9E4A21A9A4A233716FC51F7E /* Pods-CucumberishExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CucumberishExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98D0D5B22958547FAF578429A0428812 /* GHGherkinLanguageSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLanguageSetting.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageSetting.h; sourceTree = "<group>"; };
+		99169525A507342A73C2C4EFB2215D95 /* KIFUIViewTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIViewTestActor.m; path = Classes/KIFUIViewTestActor.m; sourceTree = "<group>"; };
+		9971887A0DBA639A4FD812AAB32E381B /* GHParserException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHParserException.h; path = Cucumberish/Dependencies/Gherkin/GHParserException.h; sourceTree = "<group>"; };
+		99A88ED8BBB5B0B6FA59AD6E118AC0F9 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+		99DB1C9D58A2036FE0956DBEA4B60BE2 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
+		9BF30A9558ECB7E516AE53F4C040C14D /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
+		9C98B04BD8DBA352FCF6886E52090B2E /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "Additions/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
+		A41FE612A5C700D8A55599CBD3C0292C /* GHScenarioDefinition_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenarioDefinition_Private.h; path = Cucumberish/Dependencies/Gherkin/GHScenarioDefinition_Private.h; sourceTree = "<group>"; };
+		A80C0D0295ABA6A29A22F0A48D461725 /* KIFAccessibilityEnabler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFAccessibilityEnabler.h; path = Classes/KIFAccessibilityEnabler.h; sourceTree = "<group>"; };
+		AB185868A109D0B2381373B7F36CB168 /* ResourceBundle-GherkinLanguages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GherkinLanguages-Info.plist"; sourceTree = "<group>"; };
+		ACC4F57F96E2E48E3C8DB634878E0E40 /* GHTokenMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTokenMatcher.m; path = Cucumberish/Dependencies/Gherkin/GHTokenMatcher.m; sourceTree = "<group>"; };
+		AE3CAF58E22767D2288F29A7408EDAA5 /* CCIFeaturesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIFeaturesManager.h; path = Cucumberish/Core/Managers/CCIFeaturesManager.h; sourceTree = "<group>"; };
+		AFEC5F7795F9B11AE962FD27829CAE57 /* Cucumberish-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cucumberish-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		B1271A4183344F17DEB47787D7C933DC /* CCIBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIBackground.m; path = Cucumberish/Core/Models/CCIBackground.m; sourceTree = "<group>"; };
+		B146ACBC68B18132B771D2DF1504A840 /* KIFAccessibilityEnabler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFAccessibilityEnabler.m; path = Classes/KIFAccessibilityEnabler.m; sourceTree = "<group>"; };
+		B38C974D810CB27657B935A007358450 /* CCIStepsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStepsManager.h; path = Cucumberish/Core/Managers/CCIStepsManager.h; sourceTree = "<group>"; };
+		B5CCB84A8194A602BF3454AE8C9FB459 /* GHTokenScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTokenScanner.m; path = Cucumberish/Dependencies/Gherkin/GHTokenScanner.m; sourceTree = "<group>"; };
+		B5E5654334308651FE7B07841A29311D /* Cucumberish-iOS9.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Cucumberish-iOS9.2-prefix.pch"; path = "../Cucumberish-iOS9.2/Cucumberish-iOS9.2-prefix.pch"; sourceTree = "<group>"; };
+		B686C04CD34CE15B3C88BB383E2BE6A9 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
+		B693510E21765EC5F81AD16B804458A3 /* GHComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHComment.m; path = Cucumberish/Dependencies/Gherkin/GHComment.m; sourceTree = "<group>"; };
+		B6DC04EDFBD496F704C5752A4C2A27B3 /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
+		B6F4306343777ED6DB0FAE03B7E178EC /* Pods-CucumberishFeatureDefinition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CucumberishFeatureDefinition-acknowledgements.plist"; sourceTree = "<group>"; };
+		B79976FF15369E70C5DF238481CCFCA4 /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
+		B914C48321C4DAC2EE8A6A4CAD40A6C0 /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
+		B9189081D30E4950C0E6E94746426353 /* Cucumberish.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Cucumberish.m; path = Cucumberish/Cucumberish.m; sourceTree = "<group>"; };
+		BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C251F243A17C147E6340205957425F30 /* GHGherkinLineSpan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLineSpan.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineSpan.m; sourceTree = "<group>"; };
+		C26629E52C0A4DA6E88C2B897D20F269 /* GHAstNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHAstNode.h; path = Cucumberish/Dependencies/Gherkin/GHAstNode.h; sourceTree = "<group>"; };
+		C30E0188371B84DC4272BDCA24FF6C6B /* Pods-CucumberishFeatureDefinition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CucumberishFeatureDefinition-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C57104F1BCA3F9CBB3636CCBA2A26D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C8DDAF6ED388A3A82314CB40959D7892 /* Pods-CucumberishExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9F600BB2DE85F986F336AFBEF28D18D /* GHGherkinDialectProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinDialectProvider.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialectProvider.h; sourceTree = "<group>"; };
+		CAC5016BA83F16B0C24B62FD59C1C76C /* CCIArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIArgument.h; path = Cucumberish/Core/Models/CCIArgument.h; sourceTree = "<group>"; };
+		CBD48656CA1CDE44E376BF43490AA9A8 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "Cucumberish/Utils/NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		CDC7B1239FF807BE8956B3E83D8F0A9C /* GHNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHNode.m; path = Cucumberish/Dependencies/Gherkin/GHNode.m; sourceTree = "<group>"; };
+		CE6533ACFF14FFAF656737812BA105B8 /* libPods-CucumberishFeatureDefinition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CucumberishFeatureDefinition.a"; path = "libPods-CucumberishFeatureDefinition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE886BCA47540E4B262DDCFA37ECC2EE /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
+		CECF0AAE4EBA079FA8BC74CA212BAA0E /* CCIExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIExample.h; path = Cucumberish/Core/Models/CCIExample.h; sourceTree = "<group>"; };
+		D07B2621DD1651E258382FFD3A9D6C2B /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
+		D1310EC84907E65784AF638993626A4A /* GHScenarioDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenarioDefinition.h; path = Cucumberish/Dependencies/Gherkin/GHScenarioDefinition.h; sourceTree = "<group>"; };
+		D2755282B96BB8D727D757570BA85B87 /* GHScenarioDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenarioDefinition.m; path = Cucumberish/Dependencies/Gherkin/GHScenarioDefinition.m; sourceTree = "<group>"; };
+		D2CC947522C93623297FD41B2B60B422 /* Pods-CucumberishExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CucumberishExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D38810DD57BF9701D281CC55EEB4D649 /* CCIArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIArgument.m; path = Cucumberish/Core/Models/CCIArgument.m; sourceTree = "<group>"; };
+		D42678222A93C13FF268B67882D4DEA0 /* GHHasDescriptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasDescriptionProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasDescriptionProtocol.h; sourceTree = "<group>"; };
+		D472EC13070EC0F20F6D0658CDF52379 /* GHTableRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTableRow.h; path = Cucumberish/Dependencies/Gherkin/GHTableRow.h; sourceTree = "<group>"; };
+		D545A4B889B2F77C4D4D3C1CB5C71DF7 /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
+		D5F7D58DEE05346C9DE302FFEDF76F48 /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "Additions/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
+		D5FE6172EA4F36C6D10EF65EEA3433C1 /* GHParser+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHParser+Extensions.h"; path = "Cucumberish/Dependencies/Gherkin/GHParser+Extensions.h"; sourceTree = "<group>"; };
+		D6652758C045145C411ED792D5B2ECA0 /* GHGherkinLineSpan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLineSpan.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineSpan.h; sourceTree = "<group>"; };
+		D82A0631A273592D3BB78461778F99C7 /* libPods-CucumberishExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CucumberishExampleTests.a"; path = "libPods-CucumberishExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86AE14047F65CCCBCCDD76D647CD7EA /* NSObject+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Dictionary.h"; path = "Cucumberish/Utils/NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		D88F9BE94EC93974D2368BEFD6C211CC /* GHScenario.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenario.m; path = Cucumberish/Dependencies/Gherkin/GHScenario.m; sourceTree = "<group>"; };
+		D936347BE727E01C4DFFF149516AE9C7 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
+		D9514CB8E52DB03D70F66C87A206B508 /* GHFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHFeature.h; path = Cucumberish/Dependencies/Gherkin/GHFeature.h; sourceTree = "<group>"; };
+		DA991DE9E33EF482779B554516073890 /* GHHasRowsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasRowsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasRowsProtocol.h; sourceTree = "<group>"; };
+		DB071AFA1255027D5F9A9275432ED882 /* GHAstBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHAstBuilder.m; path = Cucumberish/Dependencies/Gherkin/GHAstBuilder.m; sourceTree = "<group>"; };
+		DCE9312D983784018B3C4AAD3707B14C /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
+		DD2963144468883EBA9D276A484D529D /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
+		DD85DF04CC381177A7E529FB7E4F87E9 /* GHScenarioOutline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenarioOutline.m; path = Cucumberish/Dependencies/Gherkin/GHScenarioOutline.m; sourceTree = "<group>"; };
+		DDE42E0372056B2EFF93F744FEE8A965 /* GHTokenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTokenMatcher.h; path = Cucumberish/Dependencies/Gherkin/GHTokenMatcher.h; sourceTree = "<group>"; };
+		DE63A67EB00D12818A9592859ABA07BD /* libCucumberish-iOS10.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libCucumberish-iOS10.0.a"; path = "libCucumberish-iOS10.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2B7D5881C5609974F63BA7BC6E96D9 /* Pods-CucumberishExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CucumberishExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF39F1EC60371E985374150E3A4A8C9D /* Cucumberish-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Cucumberish-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		E1DF2E9149A87A2F54F9730917413191 /* GHNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHNode.h; path = Cucumberish/Dependencies/Gherkin/GHNode.h; sourceTree = "<group>"; };
+		E393B7FCA331E587DB4E1CE6AA8D8BCA /* GHGherkinLanguageSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLanguageSetting.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageSetting.m; sourceTree = "<group>"; };
+		E4F39EB1F39F67E424D859E1CD6FA1B5 /* GHGherkinDialect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinDialect.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialect.m; sourceTree = "<group>"; };
+		E4F5278413D3D9DA2ED414DA8E2A0B5C /* GHToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHToken.h; path = Cucumberish/Dependencies/Gherkin/GHToken.h; sourceTree = "<group>"; };
+		E58D2D265A9850F482EA7C0FD07860E3 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		E5C0921C66B8B0724207CAC11D5E6D16 /* GHStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHStep.h; path = Cucumberish/Dependencies/Gherkin/GHStep.h; sourceTree = "<group>"; };
+		E5F4633AFD993B8009E388D27E9B6983 /* GHScenarioOutline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenarioOutline.h; path = Cucumberish/Dependencies/Gherkin/GHScenarioOutline.h; sourceTree = "<group>"; };
+		E838384CA2EF404967096C3B01B04930 /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
+		E8C8D259F2D2C0855F14566A5EC35047 /* Pods-CucumberishExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CucumberishExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EC10C18DBE9AED6265809C3738102422 /* CCIStepsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStepsManager.m; path = Cucumberish/Core/Managers/CCIStepsManager.m; sourceTree = "<group>"; };
+		EE223B635E5DEC210F6CB08E07028F20 /* CCIExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIExample.m; path = Cucumberish/Core/Models/CCIExample.m; sourceTree = "<group>"; };
+		EEF64A51096A64B9230E8DAF3DAD74AB /* Pods-CucumberishExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CucumberishExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		F1E5A05306569433190E580C4243F5D5 /* GHGherkinLanguageConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLanguageConstants.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageConstants.m; sourceTree = "<group>"; };
+		F25C2E58CB6436DED9FF25524686A2AC /* GHTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTag.m; path = Cucumberish/Dependencies/Gherkin/GHTag.m; sourceTree = "<group>"; };
+		F2697EA6E7FAC2722067B5DE258C1987 /* GHHasTagsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasTagsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasTagsProtocol.h; sourceTree = "<group>"; };
+		F430B6322EB5A7601579E1FEFB4F56E3 /* NSArray+Hashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Hashes.m"; path = "Cucumberish/Utils/NSArray+Hashes.m"; sourceTree = "<group>"; };
+		F4DCD65E5DA6CAC0533AB1A1142BB83E /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
+		F579F4ECD50EA577753D30A6D1A5C8FF /* GHExamples.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHExamples.m; path = Cucumberish/Dependencies/Gherkin/GHExamples.m; sourceTree = "<group>"; };
+		F66C8A99F673452831C1BA2E48CAC364 /* Cucumberish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cucumberish.h; path = Cucumberish/Cucumberish.h; sourceTree = "<group>"; };
+		F69BBFF3D65C0035D2D63859A434ACA7 /* CCIStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStep.m; path = Cucumberish/Core/Models/CCIStep.m; sourceTree = "<group>"; };
+		FAF184CFFF1B5643319337D14FB574D1 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
+		FD3B455DB806E81051690D22EE6C8398 /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
+		FE30F5663A40AAD27F6348E0C4578B5B /* GHLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLocation.h; path = Cucumberish/Dependencies/Gherkin/GHLocation.h; sourceTree = "<group>"; };
+		FE77817AEC1357EC18574D4E401CC1F9 /* CCIScenarioDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIScenarioDefinition.m; path = Cucumberish/Core/Models/CCIScenarioDefinition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003C1747291B4CB98F7B7F3646B8B2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CB13F0F04369C3321C58171298D48D /* CoreGraphics.framework in Frameworks */,
+				69B6F0E88866A9184165B2A9C71AE370 /* Foundation.framework in Frameworks */,
+				41998D50F9BEEDA61C1E9FC1DCFF601E /* IOKit.framework in Frameworks */,
+				112F41821C8B4958DD545D084BC406F7 /* QuartzCore.framework in Frameworks */,
+				219A9150FF8F990849812FDB3EECD338 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB33F12E36291B8DDD54FF8C9923A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EA3437F7D550D1FB1E70BD3F9C9563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F5BAF02E8B246F2ADE0329D4FA0429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4745602BBFF00A30BDAD8AE0732635F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC92E891FE81FF409F00525A638BFDC /* Foundation.framework in Frameworks */,
+				9893CD715253A87A5C208DF6C46D031A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617C2256673A8144873E9812B045860D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108015D8DC55FC4167FF7C220169660D /* Foundation.framework in Frameworks */,
+				6BD655CCB168D407A3BB57DD352F58C0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD2E45E35A01B1D50C68B443F6EA146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2637742861D82C1E733D169556B4F3DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60EB47F940603B88BE0A36C7B2E4288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B902038F36C10EFA9A0D368D1C5A41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA248D666013793E53E8ADB47B04BD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE84609982194C4848F4B65C765DE75E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A571C7E6E7465222880E51456A303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C77427F3C113C255C425F912FD5A694 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DCD65E5DA6CAC0533AB1A1142BB83E /* KIF.xcconfig */,
+				7D72F400B8BC9724E26D2F900F0C58DA /* KIF-dummy.m */,
+				2A63FE0C1FFDC060716E67AB5CF06B97 /* KIF-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KIF";
+			sourceTree = "<group>";
+		};
+		11F43D0776F568767FEDCBC70D670884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253BA76B8F38C305353A245FD8D0271E /* GherkinLanguages.bundle */,
+				253BA76B8F38C305353A245FD8D0271E /* GherkinLanguages.bundle */,
+				DE63A67EB00D12818A9592859ABA07BD /* libCucumberish-iOS10.0.a */,
+				20B9D39EC226E8195706ED3F5AFD6BFE /* libCucumberish-iOS9.2.a */,
+				67CBF12F80303D31560B7D1EE427FE90 /* libKIF.a */,
+				5C5FC153E248CFBCA2DA6803C06BD90E /* libPods-CucumberishExample.a */,
+				D82A0631A273592D3BB78461778F99C7 /* libPods-CucumberishExampleTests.a */,
+				6EEF89D36CDC1930DA43FA16ACE6DA82 /* libPods-CucumberishExampleUITests.a */,
+				CE6533ACFF14FFAF656737812BA105B8 /* libPods-CucumberishFeatureDefinition.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126B0F1E8089E42BA0D24368052BCC3B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C57104F1BCA3F9CBB3636CCBA2A26D47 /* CoreGraphics.framework */,
+				BD316B88D7EE125985644F4BAF686FFB /* Foundation.framework */,
+				741C77081C9A3FE77EFF055084C86893 /* IOKit.framework */,
+				535F39E91C1C03B99B357651852C7A23 /* QuartzCore.framework */,
+				8DE313C606727CF7F2712969CF6A80DF /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1F532A34FDD30CA5A5800E4CF7E4A2F2 /* Pods-CucumberishExample */ = {
+			isa = PBXGroup;
+			children = (
+				7BF778CFB64803EE1D591789113C01B1 /* Pods-CucumberishExample-acknowledgements.markdown */,
+				83BD4AD1ADBF6E3DD3A47C1299CE3C64 /* Pods-CucumberishExample-acknowledgements.plist */,
+				0B510C7A1EA68E3B31A6C05A1CCC7A10 /* Pods-CucumberishExample-dummy.m */,
+				82CC2446798667BC8735D6AA3B1F0061 /* Pods-CucumberishExample-frameworks.sh */,
+				86494AB465BA90FFA2A952EFB0B1D39A /* Pods-CucumberishExample-resources.sh */,
+				1ABC74B30CFF909D24ED24C4D359F20D /* Pods-CucumberishExample.debug.xcconfig */,
+				13059A81FE1EBB92D368906CC02FFDFE /* Pods-CucumberishExample.release.xcconfig */,
+			);
+			name = "Pods-CucumberishExample";
+			path = "Target Support Files/Pods-CucumberishExample";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126B0F1E8089E42BA0D24368052BCC3B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2875752EFFBC724A188A97EC4CC97D94 /* Pods-CucumberishExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBB3504E8D19F3D4A07E63C90D15FB6 /* Pods-CucumberishExampleUITests-acknowledgements.markdown */,
+				9712F16A9E4A21A9A4A233716FC51F7E /* Pods-CucumberishExampleUITests-acknowledgements.plist */,
+				EEF64A51096A64B9230E8DAF3DAD74AB /* Pods-CucumberishExampleUITests-dummy.m */,
+				E8C8D259F2D2C0855F14566A5EC35047 /* Pods-CucumberishExampleUITests-frameworks.sh */,
+				71882E7EEB21C05039F8B62A74C5AAB0 /* Pods-CucumberishExampleUITests-resources.sh */,
+				65033E38E87410F6A202A58BE0D6C9ED /* Pods-CucumberishExampleUITests.debug.xcconfig */,
+				8E334CB49192E8A6B5E9F19FB31AAE38 /* Pods-CucumberishExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-CucumberishExampleUITests";
+			path = "Target Support Files/Pods-CucumberishExampleUITests";
+			sourceTree = "<group>";
+		};
+		4E6B9264FD3B03151205304900114DCA /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				DDC46C8B5CDA3DA7B3A28778E7B64D08 /* Core */,
+				0C77427F3C113C255C425F912FD5A694 /* Support Files */,
+			);
+			name = KIF;
+			path = KIF;
+			sourceTree = "<group>";
+		};
+		677B1894BB10E87278E0270D5439EF91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF39F1EC60371E985374150E3A4A8C9D /* Cucumberish-iOS10.0.xcconfig */,
+				2135A6020153B998D27207F0263D2F9A /* Cucumberish-iOS10.0-dummy.m */,
+				AFEC5F7795F9B11AE962FD27829CAE57 /* Cucumberish-iOS10.0-prefix.pch */,
+				1ABB543F5AE5E5F1B19BD2DEB3302A62 /* Cucumberish-iOS9.2.xcconfig */,
+				74C403E6F36DFA2E4ED5E50FE8A6945C /* Cucumberish-iOS9.2-dummy.m */,
+				B5E5654334308651FE7B07841A29311D /* Cucumberish-iOS9.2-prefix.pch */,
+				8F11CF212739D28DC949C171627A267C /* ResourceBundle-GherkinLanguages-Info.plist */,
+				AB185868A109D0B2381373B7F36CB168 /* ResourceBundle-GherkinLanguages-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cucumberish-iOS10.0";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				8CF3D1EABDC5E9D37E5ADDE77B71AAA2 /* Pods */,
+				11F43D0776F568767FEDCBC70D670884 /* Products */,
+				DE45163E96A47D14B1AC93165BB15161 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF3D1EABDC5E9D37E5ADDE77B71AAA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52A2AA71E53A12D218D57B4A6EFD746 /* Cucumberish */,
+				4E6B9264FD3B03151205304900114DCA /* KIF */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9CC4F4F23B65218BD22132E0C52858E /* Pods-CucumberishExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2B7D5881C5609974F63BA7BC6E96D9 /* Pods-CucumberishExampleTests-acknowledgements.markdown */,
+				7F80DF6A9D5A30C0FD111ED44639B7B6 /* Pods-CucumberishExampleTests-acknowledgements.plist */,
+				904D14828E31A45D1243E49A57A4626A /* Pods-CucumberishExampleTests-dummy.m */,
+				68D657BC4D9926EF4D5725DABB72F24D /* Pods-CucumberishExampleTests-frameworks.sh */,
+				1389199240E3FBF3D6C5FBA704275683 /* Pods-CucumberishExampleTests-resources.sh */,
+				D2CC947522C93623297FD41B2B60B422 /* Pods-CucumberishExampleTests.debug.xcconfig */,
+				C8DDAF6ED388A3A82314CB40959D7892 /* Pods-CucumberishExampleTests.release.xcconfig */,
+			);
+			name = "Pods-CucumberishExampleTests";
+			path = "Target Support Files/Pods-CucumberishExampleTests";
+			sourceTree = "<group>";
+		};
+		B36373472D8197DDBB1425365953A7B1 /* Pods-CucumberishFeatureDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				C30E0188371B84DC4272BDCA24FF6C6B /* Pods-CucumberishFeatureDefinition-acknowledgements.markdown */,
+				B6F4306343777ED6DB0FAE03B7E178EC /* Pods-CucumberishFeatureDefinition-acknowledgements.plist */,
+				4EA89AA3F0328BF4F071584DBDD168F9 /* Pods-CucumberishFeatureDefinition-dummy.m */,
+				022616B133CB34F8BEEB545DB54D6A0C /* Pods-CucumberishFeatureDefinition-frameworks.sh */,
+				1C2D375E3C2835AF3D0B9DA3E3B5C5C7 /* Pods-CucumberishFeatureDefinition-resources.sh */,
+				40A75629CFF3364EB88210949E5ED8AD /* Pods-CucumberishFeatureDefinition.debug.xcconfig */,
+				4C142F6A6025186C49159E89D3841243 /* Pods-CucumberishFeatureDefinition.release.xcconfig */,
+			);
+			name = "Pods-CucumberishFeatureDefinition";
+			path = "Target Support Files/Pods-CucumberishFeatureDefinition";
+			sourceTree = "<group>";
+		};
+		D52A2AA71E53A12D218D57B4A6EFD746 /* Cucumberish */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5016BA83F16B0C24B62FD59C1C76C /* CCIArgument.h */,
+				D38810DD57BF9701D281CC55EEB4D649 /* CCIArgument.m */,
+				068CF824D35D761DF54F79B98E5A2936 /* CCIAroundHock.h */,
+				35B7655A2172875B03D4DDC42B653953 /* CCIAroundHock.m */,
+				5EB380E5CDD2D7D9596194D53EB3AE53 /* CCIBackground.h */,
+				B1271A4183344F17DEB47787D7C933DC /* CCIBackground.m */,
+				06C930123C439C3DC3AB3EED6CDF7D03 /* CCIBlockDefinitions.h */,
+				CECF0AAE4EBA079FA8BC74CA212BAA0E /* CCIExample.h */,
+				EE223B635E5DEC210F6CB08E07028F20 /* CCIExample.m */,
+				09B959D1BCE1557A7F6825FD6DB6F0A0 /* CCIFeature.h */,
+				54C6E3DBEDB71A4EBF7036439C446228 /* CCIFeature.m */,
+				AE3CAF58E22767D2288F29A7408EDAA5 /* CCIFeaturesManager.h */,
+				910F14C625C5D6E2C6FBA9CA9D50CE73 /* CCIFeaturesManager.m */,
+				5E6403160DA39B0748FBBACF5215ADDC /* CCIHock.h */,
+				63BB92B86BE57935DDD1CA02DC60748E /* CCIHock.m */,
+				01937EC2879DAB2B77328A53CB371099 /* CCILocation.h */,
+				7DFA7792FE07C55F51A4008E5ADDE75C /* CCILocation.m */,
+				420D4BEF855D814D541A8E879800CA20 /* CCIScenarioDefinition.h */,
+				FE77817AEC1357EC18574D4E401CC1F9 /* CCIScenarioDefinition.m */,
+				16C6E09EE6FD371742DDB35EF658AD8A /* CCIStep.h */,
+				F69BBFF3D65C0035D2D63859A434ACA7 /* CCIStep.m */,
+				896E022F21A631B6F7FD2416E5E508F9 /* CCIStepDefinition.h */,
+				48EEC6C2C776BD194BF7620C86888549 /* CCIStepDefinition.m */,
+				B38C974D810CB27657B935A007358450 /* CCIStepsManager.h */,
+				EC10C18DBE9AED6265809C3738102422 /* CCIStepsManager.m */,
+				F66C8A99F673452831C1BA2E48CAC364 /* Cucumberish.h */,
+				B9189081D30E4950C0E6E94746426353 /* Cucumberish.m */,
+				57B49395900E0F4E427D749FBEC003D1 /* GHAstBuilder.h */,
+				DB071AFA1255027D5F9A9275432ED882 /* GHAstBuilder.m */,
+				C26629E52C0A4DA6E88C2B897D20F269 /* GHAstNode.h */,
+				82A885985BB8AAEA1CB15FCBCF11AFB9 /* GHAstNode.m */,
+				2DA7FD0E532F261C3EE04A86340107B2 /* GHBackground.h */,
+				65F1DB8AFBE35FCECECD00CE6D2B0B75 /* GHBackground.m */,
+				8F2C7DD371978A74E85AFE6087C87D95 /* GHComment.h */,
+				B693510E21765EC5F81AD16B804458A3 /* GHComment.m */,
+				3BD28CA6E271E6F5B1FB88B833942BDB /* GHDataTable.h */,
+				59F675479CBE5E8383CA723A19F61BC1 /* GHDataTable.m */,
+				4B4C1C27CEF0828234160A4D54953D32 /* GHDocString.h */,
+				00E3A0A85D948CB64827C29F4A343DED /* GHDocString.m */,
+				5CC650FD65456DBD2072D6C3EFFE7D01 /* GHExamples.h */,
+				F579F4ECD50EA577753D30A6D1A5C8FF /* GHExamples.m */,
+				D9514CB8E52DB03D70F66C87A206B508 /* GHFeature.h */,
+				643BA012551E2B527788E4E224F4E2C0 /* GHFeature.m */,
+				50228E047660634CDBA0AE806409FC46 /* GHGherkinDialect.h */,
+				E4F39EB1F39F67E424D859E1CD6FA1B5 /* GHGherkinDialect.m */,
+				C9F600BB2DE85F986F336AFBEF28D18D /* GHGherkinDialectProvider.h */,
+				58BF4FCC4CEBEBA360BBB992178F09A1 /* GHGherkinDialectProvider.m */,
+				1544DF557BBED304344C0718C2FC41BC /* GHGherkinDialectProviderProtocol.h */,
+				51E9231732B73AADCAFEDA416366A943 /* GHGherkinLanguageConstants.h */,
+				F1E5A05306569433190E580C4243F5D5 /* GHGherkinLanguageConstants.m */,
+				98D0D5B22958547FAF578429A0428812 /* GHGherkinLanguageSetting.h */,
+				E393B7FCA331E587DB4E1CE6AA8D8BCA /* GHGherkinLanguageSetting.m */,
+				7D5BD92DCDC4E2A26473142DC19EA03D /* GHGherkinLine.h */,
+				78B131724D16C35B7F65894EE520D51C /* GHGherkinLine.m */,
+				8D99791C617802466AEBE95F5450A898 /* GHGherkinLineProtocol.h */,
+				D6652758C045145C411ED792D5B2ECA0 /* GHGherkinLineSpan.h */,
+				C251F243A17C147E6340205957425F30 /* GHGherkinLineSpan.m */,
+				D42678222A93C13FF268B67882D4DEA0 /* GHHasDescriptionProtocol.h */,
+				10E71ECF0C782EFEE6F977C19AFD2C82 /* GHHasLocationProtocol.h */,
+				DA991DE9E33EF482779B554516073890 /* GHHasRowsProtocol.h */,
+				14EACA1EE7FC987A60E34AF2F86778FF /* GHHasStepsProtocol.h */,
+				F2697EA6E7FAC2722067B5DE258C1987 /* GHHasTagsProtocol.h */,
+				FE30F5663A40AAD27F6348E0C4578B5B /* GHLocation.h */,
+				733E58F5F454A89A4766E1BA2A7EA306 /* GHLocation.m */,
+				E1DF2E9149A87A2F54F9730917413191 /* GHNode.h */,
+				CDC7B1239FF807BE8956B3E83D8F0A9C /* GHNode.m */,
+				953741B49F981B5180506A421DCE52AD /* GHParser.h */,
+				1073F78870BF460FD0826D14BFB03A46 /* GHParser.m */,
+				D5FE6172EA4F36C6D10EF65EEA3433C1 /* GHParser+Extensions.h */,
+				039E91ADF6EBC83331948097B9779FC4 /* GHParser+Extensions.m */,
+				9971887A0DBA639A4FD812AAB32E381B /* GHParserException.h */,
+				4325C79B142CBECFEB864A99BE74CFB1 /* GHParserException.m */,
+				1F104FA1E43D4C7888EFCF52AE7247E3 /* GHScenario.h */,
+				D88F9BE94EC93974D2368BEFD6C211CC /* GHScenario.m */,
+				D1310EC84907E65784AF638993626A4A /* GHScenarioDefinition.h */,
+				D2755282B96BB8D727D757570BA85B87 /* GHScenarioDefinition.m */,
+				A41FE612A5C700D8A55599CBD3C0292C /* GHScenarioDefinition_Private.h */,
+				E5F4633AFD993B8009E388D27E9B6983 /* GHScenarioOutline.h */,
+				DD85DF04CC381177A7E529FB7E4F87E9 /* GHScenarioOutline.m */,
+				E5C0921C66B8B0724207CAC11D5E6D16 /* GHStep.h */,
+				07B51976392A6576F9EB89F6FE1026F3 /* GHStep.m */,
+				19DE9D12CCE3919456F126B7EBA65457 /* GHStepArgument.h */,
+				041D99B5569795B56F2ECE7255D64D6C /* GHStepArgument.m */,
+				8A51AF8A5B590807F10BE11C36FD1364 /* GHTableCell.h */,
+				33E8FF846386BF78DE5EC3CBE2D73805 /* GHTableCell.m */,
+				D472EC13070EC0F20F6D0658CDF52379 /* GHTableRow.h */,
+				76B23A0E0F3F88612B96459DCCAAC1E1 /* GHTableRow.m */,
+				47E8B85F9FD66DFB1F88BFAC463D1474 /* GHTag.h */,
+				F25C2E58CB6436DED9FF25524686A2AC /* GHTag.m */,
+				E4F5278413D3D9DA2ED414DA8E2A0B5C /* GHToken.h */,
+				61F804B040F8B03EE8368F24856AB22A /* GHToken.m */,
+				DDE42E0372056B2EFF93F744FEE8A965 /* GHTokenMatcher.h */,
+				ACC4F57F96E2E48E3C8DB634878E0E40 /* GHTokenMatcher.m */,
+				44D631DF22F40C61D722F367E09D000D /* GHTokenScanner.h */,
+				B5CCB84A8194A602BF3454AE8C9FB459 /* GHTokenScanner.m */,
+				526649E6199C1CA0E0049C3273C144F8 /* NSArray+Hashes.h */,
+				F430B6322EB5A7601579E1FEFB4F56E3 /* NSArray+Hashes.m */,
+				D86AE14047F65CCCBCCDD76D647CD7EA /* NSObject+Dictionary.h */,
+				CBD48656CA1CDE44E376BF43490AA9A8 /* NSObject+Dictionary.m */,
+				18B15559A676CACC01B3147054E88903 /* NSString+Formatter.h */,
+				415C318A2EFDEB179E27FB849D69FBAB /* NSString+Formatter.m */,
+				2999F4D7B812DBCF76DDE2C2DBA3070E /* NSString+Trim.h */,
+				1F30A67AEE4CC6B67FB1E1550102E294 /* NSString+Trim.m */,
+				F4216BA9E682A4E2929B1832393C814A /* Resources */,
+				677B1894BB10E87278E0270D5439EF91 /* Support Files */,
+			);
+			name = Cucumberish;
+			path = Cucumberish;
+			sourceTree = "<group>";
+		};
+		DDC46C8B5CDA3DA7B3A28778E7B64D08 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				503BBBC01728C9846D01FEAEE65A2529 /* CAAnimation+KIFAdditions.h */,
+				852C5F390227867BA98D970BA4D194CB /* CAAnimation+KIFAdditions.m */,
+				2F4CC51263E5A405DE873A92E3A4AC87 /* CALayer-KIFAdditions.h */,
+				9C98B04BD8DBA352FCF6886E52090B2E /* CALayer-KIFAdditions.m */,
+				6569D7ED132DB01E6EE093908ED33601 /* CGGeometry-KIFAdditions.h */,
+				E58D2D265A9850F482EA7C0FD07860E3 /* CGGeometry-KIFAdditions.m */,
+				18B5796232CAEFB97BDCDF245448F6E9 /* IOHIDEvent+KIF.h */,
+				7B0884CAED4F091154A8FC1DD2639B6A /* IOHIDEvent+KIF.m */,
+				778FE39FFB26060658E7250BA727F3E8 /* KIF.h */,
+				A80C0D0295ABA6A29A22F0A48D461725 /* KIFAccessibilityEnabler.h */,
+				B146ACBC68B18132B771D2DF1504A840 /* KIFAccessibilityEnabler.m */,
+				FD3B455DB806E81051690D22EE6C8398 /* KIFSystemTestActor.h */,
+				0FD12A92F839E98A938E81FEE9A43957 /* KIFSystemTestActor.m */,
+				1E46AB31277C4B08FA031FE93115E71A /* KIFTestActor.h */,
+				B914C48321C4DAC2EE8A6A4CAD40A6C0 /* KIFTestActor.m */,
+				498631E84382E2D6B10ED036157A6ED6 /* KIFTestCase.h */,
+				DD2963144468883EBA9D276A484D529D /* KIFTestCase.m */,
+				1A238AF9FF6781813287B1071BDBB3CF /* KIFTestStepValidation.h */,
+				0B756E8DF7A8DBD3C51AA784AEEF032F /* KIFTestStepValidation.m */,
+				9BF30A9558ECB7E516AE53F4C040C14D /* KIFTypist.h */,
+				1A3EBD95616DC9D62055C712194B90ED /* KIFTypist.m */,
+				7E378405BCEF5242D8181F31F34085B1 /* KIFUIObject.h */,
+				73A27B69AB90F9323105C57428A88984 /* KIFUIObject.m */,
+				6D9329E0EBBA94E7EF632C6FCAC08950 /* KIFUITestActor.h */,
+				4F311618787CE632000CA5FB6D46287A /* KIFUITestActor.m */,
+				B79976FF15369E70C5DF238481CCFCA4 /* KIFUITestActor-ConditionalTests.h */,
+				D07B2621DD1651E258382FFD3A9D6C2B /* KIFUITestActor-ConditionalTests.m */,
+				5A8F28800053A8C1EE4915F6E3B38C98 /* KIFUIViewTestActor.h */,
+				99169525A507342A73C2C4EFB2215D95 /* KIFUIViewTestActor.m */,
+				70F0D2BE2EFE2D678B707834F995FD8D /* LoadableCategory.h */,
+				27C9B14D76457811128121ACFEE0F2A3 /* NSBundle-KIFAdditions.h */,
+				71A7C4F9697B12C440BCD78B14B562F2 /* NSBundle-KIFAdditions.m */,
+				1394D9E40222756D06AE9C1CFF0C3D74 /* NSError-KIFAdditions.h */,
+				2A475DC2C0285ECA5F5200E93830DCF8 /* NSError-KIFAdditions.m */,
+				8FB184D6FE897CAFE8466F8DE83DAD61 /* NSException-KIFAdditions.h */,
+				E838384CA2EF404967096C3B01B04930 /* NSException-KIFAdditions.m */,
+				CE886BCA47540E4B262DDCFA37ECC2EE /* NSFileManager-KIFAdditions.h */,
+				6E9543A6CC6A67C5F35D7C19A03E42FB /* NSFileManager-KIFAdditions.m */,
+				409AEDAB65656350C74D9A2FC5C7D64C /* NSPredicate+KIFAdditions.h */,
+				496566833F2D36312CB752BC8ECD6BEB /* NSPredicate+KIFAdditions.m */,
+				D545A4B889B2F77C4D4D3C1CB5C71DF7 /* NSString+KIFAdditions.h */,
+				D5F7D58DEE05346C9DE302FFEDF76F48 /* NSString+KIFAdditions.m */,
+				29DBA44EF670390BBB07490D0D0E67FA /* UIAccessibilityElement-KIFAdditions.h */,
+				77908D92F0A709013F1A93407749B7ED /* UIAccessibilityElement-KIFAdditions.m */,
+				0862E11BD703B0C2881BE9471A6944FB /* UIApplication-KIFAdditions.h */,
+				320CC22E8EDBB37DE38767EDEF7F1915 /* UIApplication-KIFAdditions.m */,
+				DCE9312D983784018B3C4AAD3707B14C /* UIAutomationHelper.h */,
+				2D589C4DAA8259AA9E56CB662BFEB75B /* UIAutomationHelper.m */,
+				B6DC04EDFBD496F704C5752A4C2A27B3 /* UIEvent+KIFAdditions.h */,
+				3A8E8CAD484DD8CF9C917319FB3014C9 /* UIEvent+KIFAdditions.m */,
+				67935492127EDAB20A8CA695C9A807F4 /* UIScreen+KIFAdditions.h */,
+				82F2B4A691A81F4DCB7D40919B70B2AF /* UIScreen+KIFAdditions.m */,
+				1A026559143089DA310D22709A5DF552 /* UIScrollView-KIFAdditions.h */,
+				71C93E58E76C4D172ABEC4697A950041 /* UIScrollView-KIFAdditions.m */,
+				B686C04CD34CE15B3C88BB383E2BE6A9 /* UITableView-KIFAdditions.h */,
+				FAF184CFFF1B5643319337D14FB574D1 /* UITableView-KIFAdditions.m */,
+				652CDA4328EF7B071DDC9937461144C5 /* UITouch-KIFAdditions.h */,
+				99A88ED8BBB5B0B6FA59AD6E118AC0F9 /* UITouch-KIFAdditions.m */,
+				4D8D22846DA7391E63ED34CBDDF06DBE /* UIView-Debugging.h */,
+				D936347BE727E01C4DFFF149516AE9C7 /* UIView-Debugging.m */,
+				0787B05495DA087DB2829CDB518E866B /* UIView-KIFAdditions.h */,
+				0155523190151495BA172497DFB0F577 /* UIView-KIFAdditions.m */,
+				99DB1C9D58A2036FE0956DBEA4B60BE2 /* UIWindow-KIFAdditions.h */,
+				378754C8831F8DD8BD4B17AA301C3BCB /* UIWindow-KIFAdditions.m */,
+				7B035E3C40F2A07ECBAB7A04F136C755 /* XCTestCase-KIFAdditions.h */,
+				0515AE127502DDA13E0132BADDA85CFE /* XCTestCase-KIFAdditions.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DE45163E96A47D14B1AC93165BB15161 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F532A34FDD30CA5A5800E4CF7E4A2F2 /* Pods-CucumberishExample */,
+				A9CC4F4F23B65218BD22132E0C52858E /* Pods-CucumberishExampleTests */,
+				2875752EFFBC724A188A97EC4CC97D94 /* Pods-CucumberishExampleUITests */,
+				B36373472D8197DDBB1425365953A7B1 /* Pods-CucumberishFeatureDefinition */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4216BA9E682A4E2929B1832393C814A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A90CF36047D8EB19CAE269462334EA2 /* gherkin-languages.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		604255C2075BF5DCB92BA6EDF48EF3BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B3D71860ECF6896AB2CEB5615A01CA /* CAAnimation+KIFAdditions.h in Headers */,
+				FE5F6FF482D036EE65A6E16020B2E9A8 /* CALayer-KIFAdditions.h in Headers */,
+				002C425F9777A09E5F273BC20C7020C1 /* CGGeometry-KIFAdditions.h in Headers */,
+				ED46D92DD3B5228731338D34B04E3C6C /* IOHIDEvent+KIF.h in Headers */,
+				36C5229675214DCD9271C8C2BA19B7F2 /* KIF.h in Headers */,
+				25E587FC8A9522E329B12DE1A5F7DA3D /* KIFAccessibilityEnabler.h in Headers */,
+				5D3281B229C0A96BC41A5464858761AD /* KIFSystemTestActor.h in Headers */,
+				FF8FB649AFFE0EDCC33DD99810257623 /* KIFTestActor.h in Headers */,
+				C7D3C17B13D20697082F003EF40DE573 /* KIFTestCase.h in Headers */,
+				34A2FCAACF8F47CC63A03A9EBC0487E2 /* KIFTestStepValidation.h in Headers */,
+				ADB7B96106EE32A61131D79F7D1EC657 /* KIFTypist.h in Headers */,
+				F7108B1F084B67FAD7F019A7DF71B35D /* KIFUIObject.h in Headers */,
+				C8EB677B6CC0193C332E50F18062A17F /* KIFUITestActor-ConditionalTests.h in Headers */,
+				CBA5FCE9E8F88E59F1BBAB869748ADAE /* KIFUITestActor.h in Headers */,
+				3BB7EF86A1B9B5569CC31D51248ED069 /* KIFUIViewTestActor.h in Headers */,
+				BECBE083C1E67D3453303759574FBDAE /* LoadableCategory.h in Headers */,
+				842089A8189C009D9488BF6F061DD95A /* NSBundle-KIFAdditions.h in Headers */,
+				DA82437523D3AB25611A680888DB83A3 /* NSError-KIFAdditions.h in Headers */,
+				E5D48777F00A066D4C01A83944CB8F43 /* NSException-KIFAdditions.h in Headers */,
+				E620CA88379B9FD9FE04FD16F8C58EC0 /* NSFileManager-KIFAdditions.h in Headers */,
+				F41C5D29A48A359824A6AA73F7C58B2B /* NSPredicate+KIFAdditions.h in Headers */,
+				A5DF2D19799E60D087A4C12CC5940DE9 /* NSString+KIFAdditions.h in Headers */,
+				69084B21793CE93ABE0D5F20BC7107B2 /* UIAccessibilityElement-KIFAdditions.h in Headers */,
+				C22F60A7702A9D3E122D6F8A93EC0B56 /* UIApplication-KIFAdditions.h in Headers */,
+				89FDC2956342E8D94FF13AFAECB5EF2B /* UIAutomationHelper.h in Headers */,
+				E100418508D2EF2EACD92EFE8F4E3705 /* UIEvent+KIFAdditions.h in Headers */,
+				C0F49531E848E3ADE5B3D38009C1A254 /* UIScreen+KIFAdditions.h in Headers */,
+				41A58128F6AD313BE71D133DD4FF501C /* UIScrollView-KIFAdditions.h in Headers */,
+				28ABCCBCB8A8AB79BDD32A83A8781614 /* UITableView-KIFAdditions.h in Headers */,
+				722B42EB6ACEE05F00A093DED29D27F2 /* UITouch-KIFAdditions.h in Headers */,
+				3129B64BB2E86620799E2CAD36B5EC75 /* UIView-Debugging.h in Headers */,
+				0280B5F0A745E1EBA8132FA860800A13 /* UIView-KIFAdditions.h in Headers */,
+				4F5AFB6AD9F9023CF95F0B5621934BBF /* UIWindow-KIFAdditions.h in Headers */,
+				5A0553A6853A6AAF4434D5C5DED603D3 /* XCTestCase-KIFAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EAC61A710A3B1F80264E4DC3EA9578 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761AC9A9EF9A4ADAAACC73F3FAFB5BA1 /* CCIArgument.h in Headers */,
+				23936549A6F38E2C5C2994CDF53E64D8 /* CCIAroundHock.h in Headers */,
+				0291F58051688F1B7443ECB40B8B9F64 /* CCIBackground.h in Headers */,
+				793C0FF08B2C9396332E90587F2AC288 /* CCIBlockDefinitions.h in Headers */,
+				D318A1C9E7B9DA4AC6DF95F877166DB3 /* CCIExample.h in Headers */,
+				C3D260E8A0A0659CA00185AB29A4558B /* CCIFeature.h in Headers */,
+				4FBB3C3391E7D558E5CDFFE4139BBC40 /* CCIFeaturesManager.h in Headers */,
+				8B52C463012AFD06349F000374476E2C /* CCIHock.h in Headers */,
+				7B1BCA07DBC5358986E339E28A8BCCEF /* CCILocation.h in Headers */,
+				979D7C894F18554C0222681AB4ED7BD7 /* CCIScenarioDefinition.h in Headers */,
+				BF57307F64A1311913CF5556E912BDA4 /* CCIStep.h in Headers */,
+				99F1BB30DF3B3A8E9B6F4E7DE7581145 /* CCIStepDefinition.h in Headers */,
+				F9CBD12DD167B9904A58438FE09DBC4F /* CCIStepsManager.h in Headers */,
+				62ED0CC1F1B042916782D4634C2F2EEB /* Cucumberish.h in Headers */,
+				48AED136E995CDEC188D4B547CADA840 /* GHAstBuilder.h in Headers */,
+				7E7BEE80DE877A315FBD216AF3768A49 /* GHAstNode.h in Headers */,
+				9350372F7879DFD7A05B46A34B43FCD7 /* GHBackground.h in Headers */,
+				0B7DA3A9CFE5E22BCFA97BC8643B84BC /* GHComment.h in Headers */,
+				D20BF34798065B5D92C8C6430B9D64E0 /* GHDataTable.h in Headers */,
+				E056CEFF541E18A3D127843303386548 /* GHDocString.h in Headers */,
+				4843120F03B137C5497044D59E38F374 /* GHExamples.h in Headers */,
+				96E8EBA2362660F373890873BC6205BC /* GHFeature.h in Headers */,
+				FF0ACF7CE02154FA569083C94730CEAC /* GHGherkinDialect.h in Headers */,
+				C5C613A3800CC50D383524377B71B5E8 /* GHGherkinDialectProvider.h in Headers */,
+				C948F300320D1D3692FCC649BA7545D2 /* GHGherkinDialectProviderProtocol.h in Headers */,
+				23001FC6A0F7B485CD6312CC65A96D76 /* GHGherkinLanguageConstants.h in Headers */,
+				76DCDDB19D8D260CEEC5C63DB2FCAC0B /* GHGherkinLanguageSetting.h in Headers */,
+				165F36AB2D850C97A0CBFC0819D5340C /* GHGherkinLine.h in Headers */,
+				F68E2EB509863EC93CC31DA0051C47A0 /* GHGherkinLineProtocol.h in Headers */,
+				515F50BAF39A1C45431077BC7C02A8E7 /* GHGherkinLineSpan.h in Headers */,
+				09B6F500F0E3E9F429511C53022FCFF5 /* GHHasDescriptionProtocol.h in Headers */,
+				B23A84D2760B459F26E5063EE57DC7D3 /* GHHasLocationProtocol.h in Headers */,
+				6BB51B098BE815815EC6CD8234B9D40D /* GHHasRowsProtocol.h in Headers */,
+				2D6E0B5604EAB29EE072D75B62837596 /* GHHasStepsProtocol.h in Headers */,
+				FF480626743007785D66835B2FE7D3ED /* GHHasTagsProtocol.h in Headers */,
+				B428158F56EE480BEB77098C61E7964A /* GHLocation.h in Headers */,
+				F8B128D2C026C7B094DFA15F85D27C8B /* GHNode.h in Headers */,
+				6E517888DD889ABD638A4C0CF3ED5012 /* GHParser+Extensions.h in Headers */,
+				F855E43203BAAA7A614CFFC77DDD88E4 /* GHParser.h in Headers */,
+				2AC83CC807B460BAFBA83DA6C3F9B1EE /* GHParserException.h in Headers */,
+				F9F47471DA38D13459DBEA5745855875 /* GHScenario.h in Headers */,
+				44FC8D76278C30EC1D40B87A918B826C /* GHScenarioDefinition.h in Headers */,
+				C87FDF503EF644B0648710D0CAB71C7A /* GHScenarioDefinition_Private.h in Headers */,
+				3D7AD5B7E216E3C19BD009A04C73A1AA /* GHScenarioOutline.h in Headers */,
+				ACCDD04E5CFA0E7A3263992F0F5BBDF0 /* GHStep.h in Headers */,
+				B4D4771C8F88F3FDF9FA03E8FA8987C1 /* GHStepArgument.h in Headers */,
+				FC6A37D81C5F2E2B612F052893B9FBCE /* GHTableCell.h in Headers */,
+				D8E9637338425C3DB87BEED13CCDB775 /* GHTableRow.h in Headers */,
+				0C5C1AA24104362685F968B8C161A357 /* GHTag.h in Headers */,
+				197B27F82F0E781D3E768C594803C725 /* GHToken.h in Headers */,
+				E9D83E31D294C01DE92D2D14014B20C3 /* GHTokenMatcher.h in Headers */,
+				DEAA89126F1257C93DB98B4179D9ACC6 /* GHTokenScanner.h in Headers */,
+				3062F5275278EB3F47AAA7BEFD0161CB /* NSArray+Hashes.h in Headers */,
+				A5837C8604593752DC639B7E569D28A4 /* NSObject+Dictionary.h in Headers */,
+				1F0074D0AE98F5CA65916BF156638318 /* NSString+Formatter.h in Headers */,
+				8490634694972ABC442C213ECC47471B /* NSString+Trim.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F8E22D7ACED6DE1E23530C78E66555 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDF71F547C941711C0A7A4816F9E493 /* CCIArgument.h in Headers */,
+				17025B3A0B38D8A3AA6C1119552A6BB8 /* CCIAroundHock.h in Headers */,
+				6CD922E1660F8AAAF19B0915C5850215 /* CCIBackground.h in Headers */,
+				12208662378CD4FE696A9DB06ACCC92D /* CCIBlockDefinitions.h in Headers */,
+				831DB152AA5C6563C8D403A2F90D3CB3 /* CCIExample.h in Headers */,
+				5A20E34514F5B33FFF691F1998FD2974 /* CCIFeature.h in Headers */,
+				6AAB9D0FE6BB75F5A745A82F20188D74 /* CCIFeaturesManager.h in Headers */,
+				337CD685240BA1493995A9C55942318E /* CCIHock.h in Headers */,
+				D9F0DE66958DEC9C8AB974CAED42D75C /* CCILocation.h in Headers */,
+				2C91641D96E36D466DBE24C6A3B439D7 /* CCIScenarioDefinition.h in Headers */,
+				A0EDF6F2A5349F499D50EDBAC9AD8787 /* CCIStep.h in Headers */,
+				D6A28C9E1215DFA30E9560836AAE7409 /* CCIStepDefinition.h in Headers */,
+				211CA221E4DDC899FFBFA4058AC376CC /* CCIStepsManager.h in Headers */,
+				27C74E8A03164A8FF7D3E0FDC0533B9E /* Cucumberish.h in Headers */,
+				BE9EE873BD44CA25D3A2935B8BD14951 /* GHAstBuilder.h in Headers */,
+				952A8D82846743940B930510CF21AE21 /* GHAstNode.h in Headers */,
+				0EC13C613F13421A0EA56D1E20A5B40D /* GHBackground.h in Headers */,
+				15AB7FB90404C9C750B40031F7A525E4 /* GHComment.h in Headers */,
+				BFC9023824E6BB1E7BE8D8FBD1E64125 /* GHDataTable.h in Headers */,
+				07C4DCD89F2664CB79206EB1C238C846 /* GHDocString.h in Headers */,
+				CEFF80C93A363D642418F6D80E381CA5 /* GHExamples.h in Headers */,
+				F1A932A792546F2B819E8D693C1944A4 /* GHFeature.h in Headers */,
+				8AFF09513DD31693422443A7BB069BF0 /* GHGherkinDialect.h in Headers */,
+				623B29786C9E56D6C08183D6F90032E5 /* GHGherkinDialectProvider.h in Headers */,
+				7E2305FEC69C75543827D802F68F7A41 /* GHGherkinDialectProviderProtocol.h in Headers */,
+				907BFB48CBDCD4CBAA1AEFFFBC550028 /* GHGherkinLanguageConstants.h in Headers */,
+				41E9B77FD9A303BD031F5090969A05D1 /* GHGherkinLanguageSetting.h in Headers */,
+				110F9812638C91E8ECE0C111BD73AAE7 /* GHGherkinLine.h in Headers */,
+				6B1BE069736AEFA4322E1C3EC4C9C1B0 /* GHGherkinLineProtocol.h in Headers */,
+				F633319D7CDACF486117B022E35EF345 /* GHGherkinLineSpan.h in Headers */,
+				EA43240B0BDA45A1018400C6D7145C6E /* GHHasDescriptionProtocol.h in Headers */,
+				C8575ED2EBA101C80022F1F641FC3F12 /* GHHasLocationProtocol.h in Headers */,
+				C29E976097331ACDFCDB2DE0518B7453 /* GHHasRowsProtocol.h in Headers */,
+				ECCFF68AA8902EE57C7A82A2CC142E88 /* GHHasStepsProtocol.h in Headers */,
+				25DDD358765CA352E261A7E09AA23500 /* GHHasTagsProtocol.h in Headers */,
+				F9FD35428726175D9585ADD026EBBA75 /* GHLocation.h in Headers */,
+				278043617C0ECC84ACFC675470899F1D /* GHNode.h in Headers */,
+				EDFEB2BF0023EDF1EDF75F8B20983E14 /* GHParser+Extensions.h in Headers */,
+				34AC530DE34B346C46AB95F1321EEA98 /* GHParser.h in Headers */,
+				F8FE67C9F4162CE7DBDEE62C58F51B28 /* GHParserException.h in Headers */,
+				7C42071AB4D0DD4EBC042D00916FDC7F /* GHScenario.h in Headers */,
+				1BBDE47C8EEA7BF9958D6BD68D404567 /* GHScenarioDefinition.h in Headers */,
+				457EF586C5DF4C51E9D55E63EAF745F8 /* GHScenarioDefinition_Private.h in Headers */,
+				6244A8EC6E10940E9C9829B9543CAB33 /* GHScenarioOutline.h in Headers */,
+				F32CF9AA3BECA4117D1064F0B57DBF86 /* GHStep.h in Headers */,
+				2FBB314B217420C7FA0FD570249D19AC /* GHStepArgument.h in Headers */,
+				DD70A761A86364CDCB54452BB3D3FE24 /* GHTableCell.h in Headers */,
+				62A19EA454637DEECAFE080F92789F26 /* GHTableRow.h in Headers */,
+				774D5634A12CF53E92283C0B65441C9C /* GHTag.h in Headers */,
+				DE8E9C48B065FBF0A77C8FC414D682ED /* GHToken.h in Headers */,
+				3D680AFC5E6CFC6249D11B5690CD040F /* GHTokenMatcher.h in Headers */,
+				1A58B1E26C32911B4CCE4E225EFF86BD /* GHTokenScanner.h in Headers */,
+				5CC6C89DF57F1E9809BBA25701FB8015 /* NSArray+Hashes.h in Headers */,
+				DC53A26E310C6B5009DC847DD97CD73D /* NSObject+Dictionary.h in Headers */,
+				AD5419787433AB74AA57A93DDAC76962 /* NSString+Formatter.h in Headers */,
+				D76E0318D97A29EF4058A09472EC1A72 /* NSString+Trim.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C296F2AF0B9C490DCA5DCED262077EB /* Pods-CucumberishExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068621E18549A14756D79FD797915ED5 /* Build configuration list for PBXNativeTarget "Pods-CucumberishExampleUITests" */;
+			buildPhases = (
+				0F7B9B68F99177A189FEE2DCF2C87961 /* Sources */,
+				7AD2E45E35A01B1D50C68B443F6EA146 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494C53A365A416A00DE7F8A555532023 /* PBXTargetDependency */,
+			);
+			name = "Pods-CucumberishExampleUITests";
+			productName = "Pods-CucumberishExampleUITests";
+			productReference = 6EEF89D36CDC1930DA43FA16ACE6DA82 /* libPods-CucumberishExampleUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42F2A6AE9159650CB14307DCED04A297 /* Cucumberish-iOS9.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E397DCDCD8981883D9C78E2E2EDA3B /* Build configuration list for PBXNativeTarget "Cucumberish-iOS9.2" */;
+			buildPhases = (
+				EF574D1419FA59C20E7626430BAC8B5A /* Sources */,
+				617C2256673A8144873E9812B045860D /* Frameworks */,
+				98EAC61A710A3B1F80264E4DC3EA9578 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6263C083788F4675BAC95F3801FE644E /* PBXTargetDependency */,
+			);
+			name = "Cucumberish-iOS9.2";
+			productName = "Cucumberish-iOS9.2";
+			productReference = 20B9D39EC226E8195706ED3F5AFD6BFE /* libCucumberish-iOS9.2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E6B45ABC3C3C7D9D0E8DA52A06088EA /* KIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19696820C336D2314AF3BEFB04C56F4D /* Build configuration list for PBXNativeTarget "KIF" */;
+			buildPhases = (
+				FEEDF95DA0DAB9BEBFDFF2419059A7FD /* Sources */,
+				003C1747291B4CB98F7B7F3646B8B2C5 /* Frameworks */,
+				604255C2075BF5DCB92BA6EDF48EF3BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIF;
+			productName = KIF;
+			productReference = 67CBF12F80303D31560B7D1EE427FE90 /* libKIF.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6FB8E630AE79B872C681D613C8513A78 /* Cucumberish-iOS10.0-GherkinLanguages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9529639ABDC781F24836342B47810BC5 /* Build configuration list for PBXNativeTarget "Cucumberish-iOS10.0-GherkinLanguages" */;
+			buildPhases = (
+				BE2E26012E8584EF6D86DDFE4EF7A804 /* Sources */,
+				36F5BAF02E8B246F2ADE0329D4FA0429 /* Frameworks */,
+				B8AD67343FB118E5764F64B0A73C4938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cucumberish-iOS10.0-GherkinLanguages";
+			productName = "Cucumberish-iOS10.0-GherkinLanguages";
+			productReference = 253BA76B8F38C305353A245FD8D0271E /* GherkinLanguages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		73DE9FC0F0AD70A00749D21BBF05FEA6 /* Cucumberish-iOS10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7913384CE9EBEB59765481EC556B8C91 /* Build configuration list for PBXNativeTarget "Cucumberish-iOS10.0" */;
+			buildPhases = (
+				73246A6B3ADAFD94C397569A95D4B017 /* Sources */,
+				4745602BBFF00A30BDAD8AE0732635F8 /* Frameworks */,
+				D0F8E22D7ACED6DE1E23530C78E66555 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8BD01A01CBADA443A79EEFFCC26CAE /* PBXTargetDependency */,
+			);
+			name = "Cucumberish-iOS10.0";
+			productName = "Cucumberish-iOS10.0";
+			productReference = DE63A67EB00D12818A9592859ABA07BD /* libCucumberish-iOS10.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		74244E20C53443A0F4D52C26E25C94DC /* Pods-CucumberishExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8B92702715D8B5F30B1F8B60C4ADD8 /* Build configuration list for PBXNativeTarget "Pods-CucumberishExampleTests" */;
+			buildPhases = (
+				021E17710A44A992366CB8181EF7B5E3 /* Sources */,
+				0FB33F12E36291B8DDD54FF8C9923A42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F272EDB867F96A10AF53ED5F65818B35 /* PBXTargetDependency */,
+				8DB8C5EA9798942A1F54EE3AD8B89CEB /* PBXTargetDependency */,
+			);
+			name = "Pods-CucumberishExampleTests";
+			productName = "Pods-CucumberishExampleTests";
+			productReference = D82A0631A273592D3BB78461778F99C7 /* libPods-CucumberishExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C537462B62B955CBFE8D76F3CE52C156 /* Pods-CucumberishExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F82165205C3A945F863BE48C891DD41 /* Build configuration list for PBXNativeTarget "Pods-CucumberishExample" */;
+			buildPhases = (
+				72D5931EB4B436EF6F23415D8D51AE40 /* Sources */,
+				D60EB47F940603B88BE0A36C7B2E4288 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1E38053C8323D62A2FFB50307D9A8E /* PBXTargetDependency */,
+			);
+			name = "Pods-CucumberishExample";
+			productName = "Pods-CucumberishExample";
+			productReference = 5C5FC153E248CFBCA2DA6803C06BD90E /* libPods-CucumberishExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2184DF945FE9FF60E886F89570B1281 /* Cucumberish-iOS9.2-GherkinLanguages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971469631BA9CAC5401CDC53E3EF6034 /* Build configuration list for PBXNativeTarget "Cucumberish-iOS9.2-GherkinLanguages" */;
+			buildPhases = (
+				51FE5823633795B75294451843A1F82F /* Sources */,
+				F28A571C7E6E7465222880E51456A303 /* Frameworks */,
+				1D1CAA88384D8A48D6B95838D2307145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cucumberish-iOS9.2-GherkinLanguages";
+			productName = "Cucumberish-iOS9.2-GherkinLanguages";
+			productReference = 253BA76B8F38C305353A245FD8D0271E /* GherkinLanguages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F150A1C4F3C02A222EA76712047CA000 /* Pods-CucumberishFeatureDefinition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7A457F7A6194D7B1EC119F0446C94D /* Build configuration list for PBXNativeTarget "Pods-CucumberishFeatureDefinition" */;
+			buildPhases = (
+				0B0CF1270E0387184998B6F82E3AE17C /* Sources */,
+				EA248D666013793E53E8ADB47B04BD68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562B822EE4E7C33A7A6845DF654E3FA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CucumberishFeatureDefinition";
+			productName = "Pods-CucumberishFeatureDefinition";
+			productReference = CE6533ACFF14FFAF656737812BA105B8 /* libPods-CucumberishFeatureDefinition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11F43D0776F568767FEDCBC70D670884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DE9FC0F0AD70A00749D21BBF05FEA6 /* Cucumberish-iOS10.0 */,
+				6FB8E630AE79B872C681D613C8513A78 /* Cucumberish-iOS10.0-GherkinLanguages */,
+				42F2A6AE9159650CB14307DCED04A297 /* Cucumberish-iOS9.2 */,
+				E2184DF945FE9FF60E886F89570B1281 /* Cucumberish-iOS9.2-GherkinLanguages */,
+				5E6B45ABC3C3C7D9D0E8DA52A06088EA /* KIF */,
+				C537462B62B955CBFE8D76F3CE52C156 /* Pods-CucumberishExample */,
+				74244E20C53443A0F4D52C26E25C94DC /* Pods-CucumberishExampleTests */,
+				1C296F2AF0B9C490DCA5DCED262077EB /* Pods-CucumberishExampleUITests */,
+				F150A1C4F3C02A222EA76712047CA000 /* Pods-CucumberishFeatureDefinition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1CAA88384D8A48D6B95838D2307145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27D35E5BD1D9B70A4DA82241983F436 /* gherkin-languages.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AD67343FB118E5764F64B0A73C4938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8262B53092D7A02FDAEBF5AB71082E7F /* gherkin-languages.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021E17710A44A992366CB8181EF7B5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9F233272635518CDCED413675AA426 /* Pods-CucumberishExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0CF1270E0387184998B6F82E3AE17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D99FA854D416311252A1D17FFC326C /* Pods-CucumberishFeatureDefinition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7B9B68F99177A189FEE2DCF2C87961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2150063A79AB70D4740FE5A7D07939 /* Pods-CucumberishExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FE5823633795B75294451843A1F82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D5931EB4B436EF6F23415D8D51AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBCAC4309C01BEF98337259C763F61C /* Pods-CucumberishExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73246A6B3ADAFD94C397569A95D4B017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCE1B7E8587C2A49E5BC4D57D205931 /* CCIArgument.m in Sources */,
+				CFF533F3BE4482C018541B11D7F1B6D4 /* CCIAroundHock.m in Sources */,
+				7F305907037F8228E40484F3EEEDE41C /* CCIBackground.m in Sources */,
+				07019F0E2D76B81838AF759664A181CE /* CCIExample.m in Sources */,
+				4D5EE7C688432493C14CAA18BFFC6B61 /* CCIFeature.m in Sources */,
+				042A599E6335AC6EEC22F5F46FD65BBD /* CCIFeaturesManager.m in Sources */,
+				16A1134FACBFA414BC1580152E5C3952 /* CCIHock.m in Sources */,
+				259455BFB78D5A07CB1D9DE32D2DDCE2 /* CCILocation.m in Sources */,
+				69045CAFD98AE7FDE107D776E64256FE /* CCIScenarioDefinition.m in Sources */,
+				7B9DCAA5BF37E3D769164884C0EF56A9 /* CCIStep.m in Sources */,
+				73D374618A834A4C66A44A16CA041F06 /* CCIStepDefinition.m in Sources */,
+				D7C1DE5299ECFA11161F3E2FF4CBAF0E /* CCIStepsManager.m in Sources */,
+				7F1CC0BA786CB6D53EDFF8F4E190D17A /* Cucumberish-iOS10.0-dummy.m in Sources */,
+				3AA4B8D4A88DDD1AACB32C1D5DE14984 /* Cucumberish.m in Sources */,
+				EB8E49EBA0BA9B7F5566DD0048AA5BF0 /* GHAstBuilder.m in Sources */,
+				6F4EBFFCF5173CC48887F5881694246C /* GHAstNode.m in Sources */,
+				477B93A1AA699675F01417E820AC9AB3 /* GHBackground.m in Sources */,
+				7E6EA4719AA195051971234351ADBA01 /* GHComment.m in Sources */,
+				951B36EE45957DA226EBCBC6BD3834FC /* GHDataTable.m in Sources */,
+				F564DEB3FD653DE8AB60888535F7FB10 /* GHDocString.m in Sources */,
+				193A3AE6F50C3BDE44B10D9003C17BEE /* GHExamples.m in Sources */,
+				967313D3D1459A65A4B9AB51F581774F /* GHFeature.m in Sources */,
+				0DD344B7E4B947EF61F16E3D69913528 /* GHGherkinDialect.m in Sources */,
+				F91F2B009B6B846156EF33363A8E4E5E /* GHGherkinDialectProvider.m in Sources */,
+				1133FAC9CA3787E5BF9444F6F219CB02 /* GHGherkinLanguageConstants.m in Sources */,
+				DD20E9E2FF53581BC10A066AD3042D49 /* GHGherkinLanguageSetting.m in Sources */,
+				D2A89BBF681358418909E58B897733C4 /* GHGherkinLine.m in Sources */,
+				6D593E9465B0A950A4B988CCCC3F63D9 /* GHGherkinLineSpan.m in Sources */,
+				16C0095EBB71D2D8FDD969B1A90462E6 /* GHLocation.m in Sources */,
+				BF89A39EF17BA55E25A46489E18D09B3 /* GHNode.m in Sources */,
+				97854BEAD0B56E1268F4B94707F0184F /* GHParser+Extensions.m in Sources */,
+				CE1E4A6A71F6DF0E2FD1AA302E4AF57B /* GHParser.m in Sources */,
+				50B6F6239B55E4FADF0DE97DEE4FFD2D /* GHParserException.m in Sources */,
+				5EEE8A331FFEB05C9A840EF39E19989C /* GHScenario.m in Sources */,
+				2CD181852FD4E1E4B2CE95166E993617 /* GHScenarioDefinition.m in Sources */,
+				59C3DFAB531C46A3DAFBDE7077BDB7A8 /* GHScenarioOutline.m in Sources */,
+				8158E8F50B251164591BC3A29246D737 /* GHStep.m in Sources */,
+				BB0CB3A945A59456644384DC8D1D7602 /* GHStepArgument.m in Sources */,
+				FF7F6EA3966942D4073C0A97845039BD /* GHTableCell.m in Sources */,
+				A1EC03E9611EC485750B0C4DE543A528 /* GHTableRow.m in Sources */,
+				6646A99B767527680FA939F4F1581C5F /* GHTag.m in Sources */,
+				DB67DBB13F71D45861451B25195F0AEE /* GHToken.m in Sources */,
+				ADF6C7B7A3A0C41D6615B110DD25F4A7 /* GHTokenMatcher.m in Sources */,
+				0381D40402BB002FBBE55BC339F849C0 /* GHTokenScanner.m in Sources */,
+				27524C396DC322E7F87E72FF0C6B1D3C /* NSArray+Hashes.m in Sources */,
+				69A0CB924D8B0DA2CFDAB3543B116067 /* NSObject+Dictionary.m in Sources */,
+				99D3FB15C45729FB29E4328482E0CC28 /* NSString+Formatter.m in Sources */,
+				516B1AC9E9F604BA015B9E18C6916D32 /* NSString+Trim.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2E26012E8584EF6D86DDFE4EF7A804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF574D1419FA59C20E7626430BAC8B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A06A1F6363BAC6ABA465BFD5D7ED865 /* CCIArgument.m in Sources */,
+				6479418869146D705CD81E649B5215BF /* CCIAroundHock.m in Sources */,
+				0D73659A39B8126DE1521EF5CB67EDF0 /* CCIBackground.m in Sources */,
+				D3E488499B2C4C8BD8E41066A6258A77 /* CCIExample.m in Sources */,
+				A7DB190C84201B13FB9E7EA913D0F315 /* CCIFeature.m in Sources */,
+				0361ED4FD64145C3E257F4B612138ECD /* CCIFeaturesManager.m in Sources */,
+				41A35BDC268EE2D4F6680E43E2856EF3 /* CCIHock.m in Sources */,
+				FB0DFC62F90C94721863844AD50B171F /* CCILocation.m in Sources */,
+				8D8C925FF8D51078D4DBDA5BCF31F156 /* CCIScenarioDefinition.m in Sources */,
+				4EAFED0E706B47E193D9146AAC8B4956 /* CCIStep.m in Sources */,
+				B84CFA77D14449AB795E15E08200832F /* CCIStepDefinition.m in Sources */,
+				08A7D036D090858901997415E221E8E4 /* CCIStepsManager.m in Sources */,
+				EC860AD5B4AF4778CA10C3C13C383DF7 /* Cucumberish-iOS9.2-dummy.m in Sources */,
+				6007FCBB329740CA38E9AA80BE2C128B /* Cucumberish.m in Sources */,
+				EDBD8A6377697822255FAF341844689D /* GHAstBuilder.m in Sources */,
+				4375AAEBD25C5516FD3BCB797DE213F5 /* GHAstNode.m in Sources */,
+				573BDDCF67B70FD2DB85F2990F25DEB7 /* GHBackground.m in Sources */,
+				4891D4243C88B6911A3FCF680A4EC4A1 /* GHComment.m in Sources */,
+				B9D67AAB2E9416E4E1276C93EDCC2F52 /* GHDataTable.m in Sources */,
+				7B798E4E09F004EADEF9430F947BB556 /* GHDocString.m in Sources */,
+				96ED500587BA8BBE9FC2ED7C8AD2CEEC /* GHExamples.m in Sources */,
+				221246F3FDDC41304A4A2F7E2123E075 /* GHFeature.m in Sources */,
+				C5334F3DB7F9F2127F907E73DAD0F144 /* GHGherkinDialect.m in Sources */,
+				E388CED2229CD73FF56DF3213D152C24 /* GHGherkinDialectProvider.m in Sources */,
+				0941BB6C18FD2FC203BC4ECE6B9F7E44 /* GHGherkinLanguageConstants.m in Sources */,
+				FE389C6808E2A657C3F31DAE84BB4C87 /* GHGherkinLanguageSetting.m in Sources */,
+				9999AC2CBD0C81EE70AD2E2486FE4CC1 /* GHGherkinLine.m in Sources */,
+				B867F9CB4CFEDB2A6D433BA197900FCF /* GHGherkinLineSpan.m in Sources */,
+				8068630B39655E9449032E6C708B57FB /* GHLocation.m in Sources */,
+				EF97B0228F7C61C2CCCD1643963B69E2 /* GHNode.m in Sources */,
+				BBA8782CB7C2C4BF93C7820FB56771B5 /* GHParser+Extensions.m in Sources */,
+				7A0F243ECE01C725382C722951951E01 /* GHParser.m in Sources */,
+				2E4A3F241DC6C3452C3B5D5613321596 /* GHParserException.m in Sources */,
+				41C13733678196FFEDFD1084498CD1C1 /* GHScenario.m in Sources */,
+				7D1F1015D74B79929D4D58628D4201B1 /* GHScenarioDefinition.m in Sources */,
+				ED8E40CCA96D81797078FF7141C41B6F /* GHScenarioOutline.m in Sources */,
+				019C41012E78C5CF4DF11ED76FA27237 /* GHStep.m in Sources */,
+				27CF8B76827893F8557506E4CAD961C8 /* GHStepArgument.m in Sources */,
+				236B489458E4B60F4DC4FEE2004FCDD8 /* GHTableCell.m in Sources */,
+				73D9AEE1CA64A28327F9F0142CE8616E /* GHTableRow.m in Sources */,
+				96E3E8CF92A658978523994B540F1DB5 /* GHTag.m in Sources */,
+				89E978C4A09906358CB1A8FFB5F1B86D /* GHToken.m in Sources */,
+				8CC3C3C597EA72ADD85435E15FB9E7D4 /* GHTokenMatcher.m in Sources */,
+				A6500A7A1B990FB0C5D432FAC82FC1EE /* GHTokenScanner.m in Sources */,
+				BA83EE63F336AD12DFC3D0C5470340D4 /* NSArray+Hashes.m in Sources */,
+				EFEE72C1B7485282FD305FBE685B2F62 /* NSObject+Dictionary.m in Sources */,
+				F3497D644B4D42617BCA13E0500114E3 /* NSString+Formatter.m in Sources */,
+				60286852DDF56B1D3531CF93E1ED2F43 /* NSString+Trim.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDF95DA0DAB9BEBFDFF2419059A7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1549B128CB6C102475B7C5A589390E0 /* CAAnimation+KIFAdditions.m in Sources */,
+				20BFC3797DBB64ADD3A61F6278C00EB9 /* CALayer-KIFAdditions.m in Sources */,
+				0DDE272C57D1CB7A45B048684DB36FE9 /* CGGeometry-KIFAdditions.m in Sources */,
+				3D7AFCA832D06FEC4FBB95994DB2DB55 /* IOHIDEvent+KIF.m in Sources */,
+				E19C8DE8E9E3335FB6AF038768B4A3B9 /* KIF-dummy.m in Sources */,
+				9E7F9FCF5E5FB33EB3ADD8F90E4FFCAC /* KIFAccessibilityEnabler.m in Sources */,
+				88143BD1E5955E054C398144C2A339CF /* KIFSystemTestActor.m in Sources */,
+				E8D5E07570CB94920749E7D80E544B62 /* KIFTestActor.m in Sources */,
+				08AE0690892DE6E7C18F8AD99C0EA2C8 /* KIFTestCase.m in Sources */,
+				34AFD470CA170BC7E99C34B62F18CABF /* KIFTestStepValidation.m in Sources */,
+				339312BCC275C10B8722D3D34774BDB1 /* KIFTypist.m in Sources */,
+				644A1ACCC2AD67DA1BF730977EA513E8 /* KIFUIObject.m in Sources */,
+				F13ECC846CD35F864A6171E50B71E7B9 /* KIFUITestActor-ConditionalTests.m in Sources */,
+				02DB38FCB428278FA9B22C343CCAF01E /* KIFUITestActor.m in Sources */,
+				10C7C4A9AF42170BE52E1E5F738FC051 /* KIFUIViewTestActor.m in Sources */,
+				467AB80C19A94193162FEEE35700D438 /* NSBundle-KIFAdditions.m in Sources */,
+				202F2CD2BA1B6F8605A02DD6FD8D4F34 /* NSError-KIFAdditions.m in Sources */,
+				7A14D1C957C15E1552B7AFF364662FD8 /* NSException-KIFAdditions.m in Sources */,
+				D295CD552A4B791EAD2CE2B149E08DBE /* NSFileManager-KIFAdditions.m in Sources */,
+				0F7B4FE680BC726EE4ADB8A8408F8637 /* NSPredicate+KIFAdditions.m in Sources */,
+				4F757311A8BAC7A59904B4B19FE86297 /* NSString+KIFAdditions.m in Sources */,
+				8FB92A2E7C3DA2333BF82A6979AC07D0 /* UIAccessibilityElement-KIFAdditions.m in Sources */,
+				9E3DC2DC0D6D3DF7F814CC6A699CDEDB /* UIApplication-KIFAdditions.m in Sources */,
+				DEC6F7F5FD480CB49426532790B22D77 /* UIAutomationHelper.m in Sources */,
+				F5E770A6D0293BC03B8C91580AD3E871 /* UIEvent+KIFAdditions.m in Sources */,
+				1D08D9CC39F92D3F5A8F9EB3FAAC201A /* UIScreen+KIFAdditions.m in Sources */,
+				CF96C0691BEE09344D78CAB9B87ACF3E /* UIScrollView-KIFAdditions.m in Sources */,
+				45AB8F79F1BBAA7D9CAFECE10664E01F /* UITableView-KIFAdditions.m in Sources */,
+				CD3819CC49D00A6039047E4B0A0C7451 /* UITouch-KIFAdditions.m in Sources */,
+				2038CA4E7F53EEA73180FCABF4EC3FEF /* UIView-Debugging.m in Sources */,
+				28FB5EA3E19FE83EF6EC8529F985F8FA /* UIView-KIFAdditions.m in Sources */,
+				36FE9C3E49C30320C0F1D398138DF1B6 /* UIWindow-KIFAdditions.m in Sources */,
+				2F08BBD5293433E906A611D93BC59148 /* XCTestCase-KIFAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F1E38053C8323D62A2FFB50307D9A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-iOS9.2";
+			target = 42F2A6AE9159650CB14307DCED04A297 /* Cucumberish-iOS9.2 */;
+			targetProxy = E41A7D0171EEAB80AF50B20851FB3C1E /* PBXContainerItemProxy */;
+		};
+		3C8BD01A01CBADA443A79EEFFCC26CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-iOS10.0-GherkinLanguages";
+			target = 6FB8E630AE79B872C681D613C8513A78 /* Cucumberish-iOS10.0-GherkinLanguages */;
+			targetProxy = 59C0C915B581A3F53E67FE2047DB77A6 /* PBXContainerItemProxy */;
+		};
+		494C53A365A416A00DE7F8A555532023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-iOS10.0";
+			target = 73DE9FC0F0AD70A00749D21BBF05FEA6 /* Cucumberish-iOS10.0 */;
+			targetProxy = CCAE92AE3C95E355E27D803DB58C25F2 /* PBXContainerItemProxy */;
+		};
+		562B822EE4E7C33A7A6845DF654E3FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-iOS9.2";
+			target = 42F2A6AE9159650CB14307DCED04A297 /* Cucumberish-iOS9.2 */;
+			targetProxy = 29979ECFCF0367FEB484B968B1378A72 /* PBXContainerItemProxy */;
+		};
+		6263C083788F4675BAC95F3801FE644E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-iOS9.2-GherkinLanguages";
+			target = E2184DF945FE9FF60E886F89570B1281 /* Cucumberish-iOS9.2-GherkinLanguages */;
+			targetProxy = B7A7BF74AB66E809213877BA7F60ECF4 /* PBXContainerItemProxy */;
+		};
+		8DB8C5EA9798942A1F54EE3AD8B89CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			target = 5E6B45ABC3C3C7D9D0E8DA52A06088EA /* KIF */;
+			targetProxy = 15764D480F5ED0524B60F7C2A167D555 /* PBXContainerItemProxy */;
+		};
+		F272EDB867F96A10AF53ED5F65818B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-iOS9.2";
+			target = 42F2A6AE9159650CB14307DCED04A297 /* Cucumberish-iOS9.2 */;
+			targetProxy = 839A8B3AC8EA62726294FF731BC787DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CB73914306C389E0F0FDB200C153B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65033E38E87410F6A202A58BE0D6C9ED /* Pods-CucumberishExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38A3DD792DBA1A026C07056FAD7A13FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABB543F5AE5E5F1B19BD2DEB3302A62 /* Cucumberish-iOS9.2.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish-iOS9.2";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Cucumberish-iOS9.2/ResourceBundle-GherkinLanguages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3C404FDF712568A0A51E332E59783590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C142F6A6025186C49159E89D3841243 /* Pods-CucumberishFeatureDefinition.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47F9C7A62DDBB591FB9A2B044DC74B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13059A81FE1EBB92D368906CC02FFDFE /* Pods-CucumberishExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A8080FDD0E384723465B651AF0AF8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DCD65E5DA6CAC0533AB1A1142BB83E /* KIF.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5670DB0829083DA0C0EF75BEA086465C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF39F1EC60371E985374150E3A4A8C9D /* Cucumberish-iOS10.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish-iOS10.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Cucumberish-iOS10.0/ResourceBundle-GherkinLanguages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		58444866A6C3A92C653A37E2C9A1B308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABC74B30CFF909D24ED24C4D359F20D /* Pods-CucumberishExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7AAC4D4568CCDC6A0F78AC50CCB5BF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DDAF6ED388A3A82314CB40959D7892 /* Pods-CucumberishExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81CFD18157FCCE14185C31ADD15923E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF39F1EC60371E985374150E3A4A8C9D /* Cucumberish-iOS10.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish-iOS10.0/Cucumberish-iOS10.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95D6E202BBB8A4D992E362A4EFDF3BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABB543F5AE5E5F1B19BD2DEB3302A62 /* Cucumberish-iOS9.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish-iOS9.2/Cucumberish-iOS9.2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AADB9822762AD81BBAE83335B2AB1EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B5EB0850F98CB5AECDB015B690777F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B55956662F316E6600F5731462789A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABB543F5AE5E5F1B19BD2DEB3302A62 /* Cucumberish-iOS9.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish-iOS9.2/Cucumberish-iOS9.2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6FA85330327A36C0A469E31D99572F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DCD65E5DA6CAC0533AB1A1142BB83E /* KIF.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0190FB0FF00D449BF2F70607D4F45C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E334CB49192E8A6B5E9F19FB31AAE38 /* Pods-CucumberishExampleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DAAD7568ADE973DBED1D8012325B6E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF39F1EC60371E985374150E3A4A8C9D /* Cucumberish-iOS10.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish-iOS10.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Cucumberish-iOS10.0/ResourceBundle-GherkinLanguages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E9A61BA82EDFE2A26219B85A6F6E781C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2CC947522C93623297FD41B2B60B422 /* Pods-CucumberishExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EEC125E1DE5D8BEB750041EA0583A6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABB543F5AE5E5F1B19BD2DEB3302A62 /* Cucumberish-iOS9.2.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish-iOS9.2";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Cucumberish-iOS9.2/ResourceBundle-GherkinLanguages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FAE290A4265C775B5751AC36619FA4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF39F1EC60371E985374150E3A4A8C9D /* Cucumberish-iOS10.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish-iOS10.0/Cucumberish-iOS10.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FEA7C4D94D8544E73BC575E0A76361D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A75629CFF3364EB88210949E5ED8AD /* Pods-CucumberishFeatureDefinition.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068621E18549A14756D79FD797915ED5 /* Build configuration list for PBXNativeTarget "Pods-CucumberishExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB73914306C389E0F0FDB200C153B14 /* Debug */,
+				D0190FB0FF00D449BF2F70607D4F45C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19696820C336D2314AF3BEFB04C56F4D /* Build configuration list for PBXNativeTarget "KIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FA85330327A36C0A469E31D99572F9 /* Debug */,
+				4A8080FDD0E384723465B651AF0AF8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7A457F7A6194D7B1EC119F0446C94D /* Build configuration list for PBXNativeTarget "Pods-CucumberishFeatureDefinition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA7C4D94D8544E73BC575E0A76361D6 /* Debug */,
+				3C404FDF712568A0A51E332E59783590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F82165205C3A945F863BE48C891DD41 /* Build configuration list for PBXNativeTarget "Pods-CucumberishExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58444866A6C3A92C653A37E2C9A1B308 /* Debug */,
+				47F9C7A62DDBB591FB9A2B044DC74B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B5EB0850F98CB5AECDB015B690777F /* Debug */,
+				AADB9822762AD81BBAE83335B2AB1EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8B92702715D8B5F30B1F8B60C4ADD8 /* Build configuration list for PBXNativeTarget "Pods-CucumberishExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A61BA82EDFE2A26219B85A6F6E781C /* Debug */,
+				7AAC4D4568CCDC6A0F78AC50CCB5BF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7913384CE9EBEB59765481EC556B8C91 /* Build configuration list for PBXNativeTarget "Cucumberish-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CFD18157FCCE14185C31ADD15923E5 /* Debug */,
+				FAE290A4265C775B5751AC36619FA4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E397DCDCD8981883D9C78E2E2EDA3B /* Build configuration list for PBXNativeTarget "Cucumberish-iOS9.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55956662F316E6600F5731462789A1D /* Debug */,
+				95D6E202BBB8A4D992E362A4EFDF3BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9529639ABDC781F24836342B47810BC5 /* Build configuration list for PBXNativeTarget "Cucumberish-iOS10.0-GherkinLanguages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAD7568ADE973DBED1D8012325B6E3D /* Debug */,
+				5670DB0829083DA0C0EF75BEA086465C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971469631BA9CAC5401CDC53E3EF6034 /* Build configuration list for PBXNativeTarget "Cucumberish-iOS9.2-GherkinLanguages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC125E1DE5D8BEB750041EA0583A6B1 /* Debug */,
+				38A3DD792DBA1A026C07056FAD7A13FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
